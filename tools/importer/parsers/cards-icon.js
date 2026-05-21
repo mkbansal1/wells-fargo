@@ -45,6 +45,6 @@ export default function parse(element, { document }) {
     }
   });
 
-  const block = WebImporter.Blocks.createBlock(document, { name: 'cards-icon', cells });
+  const block = WebImporter.Blocks.createBlock(document, { name: 'Cards (icon)', cells });
   element.replaceWith(block);
 }

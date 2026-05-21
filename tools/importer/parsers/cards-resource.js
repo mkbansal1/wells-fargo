@@ -44,6 +44,6 @@ export default function parse(element, { document }) {
     cells.push([icon || '', contentCell.length > 0 ? contentCell : '']);
   }
 
-  const block = WebImporter.Blocks.createBlock(document, { name: 'cards-resource', cells });
+  const block = WebImporter.Blocks.createBlock(document, { name: 'Cards (resource)', cells });
   element.replaceWith(block);
 }
