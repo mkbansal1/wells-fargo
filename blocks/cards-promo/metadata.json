@@ -1,0 +1,39 @@
+{
+  "variantName": "cards-promo",
+  "baseBlock": "cards",
+  "version": "1.0.0",
+  "created": "2026-05-21T08:00:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://www.wellsfargo.com/mortgage/",
+    "originPage": "Mortgage landing page",
+    "blockPosition": "middle"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "white",
+    "density": "spacious",
+    "purpose": "promotional-cards",
+    "imagePattern": "large"
+  },
+  "contentPattern": {
+    "structure": "large image + heading + description + text link CTA",
+    "buttonCount": 1,
+    "imageCount": 1
+  },
+  "reuseGuidance": {
+    "suitableFor": [
+      "Promotional offer cards with illustrations",
+      "Program/benefit highlight cards",
+      "Three-column marketing card layouts"
+    ],
+    "notSuitableFor": [
+      "Icon-based feature cards",
+      "Cards without images",
+      "Cards needing more than 3 items in a row"
+    ]
+  },
+  "usage": {
+    "pagesUsing": ["/mortgage/index"],
+    "reuseCount": 1,
+    "lastUsed": "2026-05-21T08:00:00.000Z"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "variantName": "columns-testimonial",
+  "baseBlock": "columns",
+  "version": "1.0.0",
+  "created": "2026-05-21T08:00:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://www.wellsfargo.com/mortgage/",
+    "originPage": "Mortgage landing page",
+    "blockPosition": "middle"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "white",
+    "density": "spacious",
+    "purpose": "testimonial",
+    "imagePattern": "noimg"
+  },
+  "contentPattern": {
+    "structure": "2 columns with quoted text + attribution name",
+    "buttonCount": 0,
+    "imageCount": 0
+  },
+  "reuseGuidance": {
+    "suitableFor": [
+      "Customer testimonial displays",
+      "Two-column quote layouts",
+      "Side-by-side customer reviews"
+    ],
+    "notSuitableFor": [
+      "Single testimonial displays",
+      "Testimonials with customer photos",
+      "More than 2 testimonials requiring carousel"
+    ]
+  },
+  "usage": {
+    "pagesUsing": ["/mortgage/index"],
+    "reuseCount": 1,
+    "lastUsed": "2026-05-21T08:00:00.000Z"
+  }
+}

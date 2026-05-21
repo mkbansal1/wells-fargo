@@ -1,0 +1,201 @@
+{
+  "url": "https://www.wellsfargo.com/mortgage/",
+  "timestamp": "2026-05-21T07:57:34.991Z",
+  "paths": {
+    "documentPath": "/mortgage/index",
+    "htmlFilePath": "/mortgage/index.plain.html",
+    "mdFilePath": "/mortgage/index.md",
+    "dirPath": "/mortgage",
+    "filename": "index"
+  },
+  "screenshot": "migration-work/screenshot.png",
+  "html": {
+    "filePath": "migration-work/cleaned.html",
+    "size": 148820
+  },
+  "metadata": {
+    "title": "Home Mortgage Loans & Financing | Wells Fargo",
+    "viewport": "width=device-width, initial-scale=1.0",
+    "description": "Wells Fargo Home Mortgage offers competitive rates on a variety of home loan options. Visit Wells Fargo today to check rates and get mortgage financing.",
+    "keywords": "mortgage, home mortgage, mortgage loans, mortgage rates, refinance mortgage, home loan, mortgage calculator, mortgage application, mortgage prequalification, mortgage preapproval, first-time homebuyer, home purchase loan, down payment assistance, closing cost credit, refinance home loan, cash-out refinance, Wells Fargo mortgage, mortgage lender near me, mortgage tools, home affordability calculator, Dream Plan Home, Homebuyer Access grant, HELOC, home equity line of credit, home equity loan",
+    "robots": "index, follow",
+    "canonical": "https://www.wellsfargo.com/mortgage/",
+    "jsonLd": {
+      "@type": [
+        "CollectionPage"
+      ],
+      "@id": "https://www.wellsfargo.com/mortgage/#CollectionPage",
+      "@context": {
+        "@vocab": "http://schema.org/",
+        "kg": "http://g.co/kg"
+      },
+      "url": "https://www.wellsfargo.com/mortgage/",
+      "author": [
+        {
+          "@id": "https://internal.www.wellsfargo.com/#SharedDataItem"
+        }
+      ],
+      "about": [
+        {
+          "@type": "Thing",
+          "@id": "https://www.wellsfargo.com/mortgage/#CollectionPage_about_Thing",
+          "sameAs": "https://www.wikidata.org/wiki/Q119747767"
+        }
+      ],
+      "mentions": [
+        {
+          "@type": "WebPage",
+          "@id": "https://www.wellsfargo.com/mortgage/#Highlight-20231109163039121_0_CollectionPage_mentions_WebPage",
+          "name": "$10,000 down payment grant",
+          "description": "The Homebuyer Access® grant provides $10,000 in down payment assistance to eligible borrowers buying a home in select locations.Opens a modal dialog for footnote 3",
+          "url": "https://www.wellsfargo.com/mortgage/buying-a-house/affordable-options/?utm_source=browser&utm_medium=mortgage&utm_campaign=affordable-options"
+        },
+        {
+          "@type": "WebPage",
+          "@id": "https://www.wellsfargo.com/mortgage/#Highlight-20231109163039121_1_CollectionPage_mentions_WebPage",
+          "name": "Up to $5,000 for closing costs",
+          "description": "Through our Dream. Plan. Home.® closing cost credit,Opens a modal dialog for footnote 4 eligible buyers get up to $5,000 to apply toward one-time closing costs when buying a primary home.",
+          "url": "https://www.wellsfargo.com/mortgage/buying-a-house/affordable-options/?utm_source=browser&utm_medium=mortgage&utm_campaign=affordable-options"
+        },
+        {
+          "@type": "WebPage",
+          "@id": "https://www.wellsfargo.com/mortgage/#Highlight-20231109163039121_2_CollectionPage_mentions_WebPage",
+          "name": "Relationship benefits",
+          "description": "You may qualify for a closing cost credit or an interest rate discount based on eligible new and existing assets with Wells Fargo.Opens a modal dialog for footnote 5",
+          "url": "https://www.wellsfargo.com/mortgage/relationship-offers/"
+        },
+        {
+          "@type": "WebPage",
+          "@id": "https://www.wellsfargo.com/mortgage/#Highlight-20231109163039121_3_CollectionPage_mentions_WebPage",
+          "name": " \"It was a wonderful seamless experience getting my mortgage from Wells&nbsp;Fargo. Everyone I worked with was professional, clear, and made the process very smooth. I am very grateful and would definitely recommend Wells&nbsp;Fargo to others.\" Despina K."
+        },
+        {
+          "@type": "WebPage",
+          "@id": "https://www.wellsfargo.com/mortgage/#Highlight-20231109163039121_4_CollectionPage_mentions_WebPage",
+          "name": " \"Start to finish really great experience. Everyone involved was pleasant, professional, and kind. I have done several mortgages and this by far was the easiest.\" Kenneth F."
+        },
+        {
+          "@type": "WebPage",
+          "@id": "https://www.wellsfargo.com/mortgage/#Highlight-20231109163039121_5_CollectionPage_mentions_WebPage",
+          "name": "Buying or Refinancing ",
+          "description": "\n  \n    \n\t\n\t\t\n\t\t\n\t\t    1-877-937-9357\n\t\t\n\t\t\n\t\n\n  \n Mon – Fri: 7 am – 8 pm  Sat: 8 am – 6 pm  Central Time Marque 9 para recibir atención en español. "
+        },
+        {
+          "@type": "WebPage",
+          "@id": "https://www.wellsfargo.com/mortgage/#Highlight-20231109163039121_6_CollectionPage_mentions_WebPage",
+          "name": "Account servicing",
+          "description": " 1-866-234-8271 Mon – Fri: 7 am – 10 pm  Sat: 8 am – 2 pm  Central Time Marque 9 para recibir atención en español. "
+        },
+        {
+          "@type": "WebPage",
+          "@id": "https://www.wellsfargo.com/mortgage/#Highlight-20231109163039121_7_CollectionPage_mentions_WebPage",
+          "name": "Let us contact you",
+          "description": "Enter your contact information to have a mortgage consultant call you. Get a call back"
+        },
+        {
+          "@type": "WebPage",
+          "@id": "https://www.wellsfargo.com/mortgage/#Highlight-20231109163039121_8_CollectionPage_mentions_WebPage",
+          "name": "Find a consultant",
+          "description": "Use our locator to search for mortgage consultants in your area.     Search locations "
+        }
+      ],
+      "mainEntity": [
+        {
+          "@type": "FAQPage",
+          "@id": "https://www.wellsfargo.com/mortgage/#CollectionPage_mainEntity_FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "@id": "https://www.wellsfargo.com/mortgage/#Highlight20250910145046693-27495_0_CollectionPage_mainEntity_FAQPage_mainEntity_Question",
+              "name": "How much home can I afford?",
+              "acceptedAnswer": [
+                {
+                  "@type": "Answer",
+                  "@id": "https://www.wellsfargo.com/mortgage/#Highlight20250910145046693-27495_0_CollectionPage_mainEntity_FAQPage_mainEntity_Question_acceptedAnswer_Answer",
+                  "text": "Many people start by determining what they can afford as a monthly payment. A common starting point is to calculate 25% of your gross monthly income to help determine a manageable monthly mortgage payment.  Learn more about determining your monthly payment Wells Fargo home price range calculator "
+                }
+              ]
+            },
+            {
+              "@type": "Question",
+              "@id": "https://www.wellsfargo.com/mortgage/#Highlight20250910145046693-27495_1_CollectionPage_mainEntity_FAQPage_mainEntity_Question",
+              "name": "What parts of my finances does a mortgage lender review?",
+              "acceptedAnswer": [
+                {
+                  "@type": "Answer",
+                  "@id": "https://www.wellsfargo.com/mortgage/#Highlight20250910145046693-27495_1_CollectionPage_mainEntity_FAQPage_mainEntity_Question_acceptedAnswer_Answer",
+                  "text": "A lender will check your credit score and history, your debt-to-income ratio, which is a measurement of the amount of debt you have compared to your income, and take a general look at how much money you have in checking and savings accounts in order to be confident you’ll be able to pay for your mortgage, taxes, and other costs associated with buying a home.  Learn more about your finances and how they impact buying a home Read tips on establishing and building credit "
+                }
+              ]
+            },
+            {
+              "@type": "Question",
+              "@id": "https://www.wellsfargo.com/mortgage/#Highlight20250910145046693-27495_2_CollectionPage_mainEntity_FAQPage_mainEntity_Question",
+              "name": "What is the minimum down payment for conventional, FHA, and VA loans?",
+              "acceptedAnswer": [
+                {
+                  "@type": "Answer",
+                  "@id": "https://www.wellsfargo.com/mortgage/#Highlight20250910145046693-27495_2_CollectionPage_mainEntity_FAQPage_mainEntity_Question_acceptedAnswer_Answer",
+                  "text": "Wells Fargo offers several low down payment options, including conventional loans (those not backed by a government agency). Conventional fixed-rate loans are available with a down payment as low as 3%.Opens a modal dialog for footnote 6  Talk with a home mortgage consultant about loan amount, loan type, property type, income, first-time homebuyer, and homebuyer education requirements to discuss eligibility.  FHA loans are available with as little as 3.5% down.  FHA loans have the benefit of a low down payment, but consider all costs involved, including up-front and long-term mortgage insurance and all fees. Ask your home mortgage consultant to help you compare the overall costs of all your home financing options.  VA loans Up to 100% financing may be available on VA loans for qualified borrowers.Opens a modal dialog for footnote 7"
+                }
+              ]
+            },
+            {
+              "@type": "Question",
+              "@id": "https://www.wellsfargo.com/mortgage/#Highlight20250910145046693-27495_3_CollectionPage_mainEntity_FAQPage_mainEntity_Question",
+              "name": "What other costs are part of my mortgage?",
+              "acceptedAnswer": [
+                {
+                  "@type": "Answer",
+                  "@id": "https://www.wellsfargo.com/mortgage/#Highlight20250910145046693-27495_3_CollectionPage_mainEntity_FAQPage_mainEntity_Question_acceptedAnswer_Answer",
+                  "text": "Your monthly mortgage payment typically will include principal and interest on the mortgage, as well as homeowners insurance and property taxes if your mortgage payment includes escrow. Depending on your down payment and loan type, you may also have to pay private mortgage insurance as part of your monthly mortgage payment.  Learn more about the components of a mortgage payment Learn more about escrow "
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "name": "Home Mortgage Loans",
+      "description": "Wells Fargo Home Mortgage offers competitive rates on a variety of home loan options. Visit Wells Fargo today to check rates and get mortgage financing."
+    }
+  },
+  "images": {
+    "count": 26,
+    "mapping": {
+      "https://www17.wellsfargomedia.com/assets/images/rwd/wf_logo_220x23.png": "./images/fb2ab0c159f5e0df48b95fb95ad466d8.png",
+      "https://www17.wellsfargomedia.com/assets/images/rwd/icons/home-mortgage/checkmark_gradient_64x64.png": "./images/df223c59bc99d132d7d93393e5d91118.png",
+      "https://www17.wellsfargomedia.com/assets/images/rwd/icons/home-mortgage/house-equity_color-gradient_64x64.png": "./images/48003a41c3d141a8c1652648913f354f.png",
+      "https://www17.wellsfargomedia.com/assets/images/sprite/responsive-sprite-v15.png": "./images/0deed819e70e3a69893a099a7dccbcb5.png",
+      "https://www.wellsfargo.com/assets/images/global/s.gif?log=1&cb=1779350240572&event=PageLoad&pid=tcm%3A702-255118-64&ptid=tcm%3A702-236593-128&pageUrl=https%3A%2F%2Fwww.wellsfargo.com%2Fmortgage%2F&clist=84-224686-16~91-2049-32|84-339356-16~91-223645-32|84-220967-16~91-223645-32|84-251836-16~91-223645-32|84-341307-16~91-223645-32|84-284820-16~91-223645-32|84-205467-16~91-223645-32|84-339561-16~91-223645-32|84-226264-16~91-223649-32|84-39242-16~91-223645-32|84-302220-16~91-223645-32|84-245958-16~91-223647-32|182-246149-16~91-223667-32|84-241194-16~91-236597-32|84-245989-16~91-226306-32|182-249745-16~91-244424-32|84-341301-16~91-223644-32|182-221270-16~91-2049-32|84-294996-16~91-228644-32|84-295004-16~91-228644-32|84-295012-16~91-223650-32|84-303923-16~91-228644-32|84-252336-16~91-223650-32|182-253855-16~91-244416-32|182-253857-16~91-244416-32|182-253859-16~91-244416-32|182-253858-16~91-244416-32|84-253849-16~91-223650-32|84-249709-16~91-223650-32|702-303099-16~91-2049-32|84-252389-16~91-223650-32|84-252390-16~91-223644-32|84-336236-16~91-223644-32|84-246011-16~91-223668-32|84-246025-16~91-223675-32": "./images/dfcc08f75f76e2c82cb0fcaa533c2d00.png",
+      "https://www17.wellsfargomedia.com/assets/images/homepage/card_background-gradient-375x2172.png": "./images/1db0f518b178c55735541af80859afdc.png",
+      "https://www17.wellsfargomedia.com/assets/images/contextual/responsive/marquee-ctr/home-mortgage/kids-running-in-hallway_ctr_1700x600.jpg?impolicy=SmCDesktopXL": "./images/f5465a5db90b01752a8989ac10d2d1d4.png",
+      "https://www17.wellsfargomedia.com/assets/images/rwd/icons/home-mortgage/magnifying-glass_color-gradient_64x64.png": "./images/76b312082bd98e3c1d7352fbf8fae885.png",
+      "https://www17.wellsfargomedia.com/assets/images/rwd/icons/home-mortgage/house-for-sale_v2_color-gradient_64x64.png": "./images/8500bab3673cf2b143785189236d324c.png",
+      "https://www17.wellsfargomedia.com/assets/images/rwd/icons/home-mortgage/compass_color-gradient_64x64.png": "./images/7bd505587bd848d1c92a6e81c67c8cb3.png",
+      "https://www17.wellsfargomedia.com/assets/images/rwd/icons/home-mortgage/house-percentage_color-gradient_64x64.png": "./images/eed1d22fd32edd6948c591f9ec4ff0ee.png",
+      "https://www17.wellsfargomedia.com/assets/images/rwd/icons/home-mortgage/line-graph_color-gradient_64x64.png": "./images/81b0a54e4b7548b8cbd380a9c1d6c7bc.png",
+      "https://www17.wellsfargomedia.com/assets/images/rwd/photography/616x353/icon_handshake-gray_616x353.png": "./images/1a9614afebf8d36e987cf42dcc27b823.png",
+      "https://www17.wellsfargomedia.com/assets/images/rwd/photography/616x353/icon_cash-stack-gray_616x353.png": "./images/0d89e69bdceb6725d52de510e8929343.png",
+      "https://www17.wellsfargomedia.com/assets/images/rwd/photography/616x353/icon_cash-in-hand-gray_616x353.png": "./images/0ddf0c908881f1be92339c3337b6be22.png",
+      "https://b.videoamp.com/d2/2ca31b42-b54d-40d9-bd67-656e1d7b1de2/9784/impression?bwb=35&vpxid=9784&dnt=false&cevt=MORTGAGE_HOME_PAGE_ARRIVAL&random=20260521075721": "./images/ef6316637a520dd2f3d4b09b18db54c7.png",
+      "https://dpm.demdex.net/ibs:dpid=411&dpuuid=ag664gAAAFo7sQN2": "./images/3be61a798571a0262b8a43805ab194bd.png",
+      "https://static.wellsfargo.com/assets/js/pcmp/prod/wellsfargo.com/consent/ec31ce42-18f4-4288-9419-e97e758f2d39/01988685-59ac-7e3f-8651-a92ac4822fe9/logos/static/powered_by_logo.svg": "./images/b1a526c9ca8940cd5e50a4ed624bbd5a.png",
+      "https://sp.analytics.yahoo.com/sp.pl?a=10000&d=Thu%2C%2021%20May%202026%2007%3A57%3A22%20GMT&n=0&b=Home%20Mortgage%20Loans%20%26%20Financing%20%7C%20Wells%20Fargo&.yp=10028472&f=https%3A%2F%2Fwww.wellsfargo.com%2Fmortgage%2F&enc=UTF-8&yv=1.9.2&et=custom&ec=mtgallpage&tagmgr=gtm%2Cadobe": "./images/5956cdd9d8c4e59619606a75d8c0af31.png",
+      "https://static.wellsfargo.com/assets/js/pcmp/prod/wellsfargo.com/consent/ec31ce42-18f4-4288-9419-e97e758f2d39/01988685-59ac-7e3f-8651-a92ac4822fe9/logos/1b74778f-ed65-4e19-a2c4-8004202c5cdc/01987b71-446e-7a64-aa67-5d9e56da6410/54c9288e-ddd9-4d22-88f3-c9edcb7158ec/WF-Logo-188x50-noleftlarger-x1.png": "./images/0b259dc6dc3820e20101ba1648c5000f.png",
+      "https://s.amazon-adsystem.com/ecm3?ex=adobe.com&id=79323056056029807343137591382125112785": "./images/19ab6008c15c4a82cc4088517d7e12ec.png",
+      "https://ad.doubleclick.net/activity;register_conversion=1;src=2549153;type=mtgxt0;cat=mtg_a00e;ord=4702502613138;npa=0;auiddc=2086763642.1779350242;ps=1;pcor=1553029947;uaa=x86;uab=64;uafvl=Not%253AA-Brand%3B99.0.0.0%7CHeadlessChrome%3B145.0.7632.6%7CChromium%3B145.0.7632.6;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;user_data_mode=c;_tu=IFA;gtm=45fe54b0h1v9181639752za204zb9166611554;gcd=13l3l3l3l1l1;dma=0;dc_fmt=10;tag_exp=102509683~102803279~102813109~102887800~102926062~103021830~103027016~103051953~103055465~103077950;ptag_exp=102509683~102803279~102813109~102887800~102926062~103021830~103027016~103051953~103055465~103077950;epver=2;em=tv.1;~oref=https%3A%2F%2Fwww.wellsfargo.com%2Fmortgage%2F?": "./images/bc17f6d63b7157203f107fb71ab075c8.png",
+      "https://dpm.demdex.net/ibs:dpid=771&dpuuid=CAESEJASG9AktafQnpGPbb2vY4U&google_cver=1?gdpr=0&gdpr_consent=": "./images/648df51d23dd657106ec93e9a408c495.png",
+      "https://dpm.demdex.net/ibs:dpid=477&dpuuid=221323a8b00781aecc3368e58f873e629978a11d28d03fabffd1322650008a0fb0da87c991749652": "./images/1f6bfdae5a5fba4c3bd175cbc6985758.png",
+      "https://dpm.demdex.net/ibs:dpid=30646?dpuuid=y-O9MBfKtE2pFkfWiOwT5pFZUFfPMPZLUBYq0-~A": "./images/955bf1261cd78999751e6047cd0552cb.png",
+      "https://www.google.com/pagead/1p-user-list/984436569/?random=1779350242336&cv=11&fst=1779346800000&fmt=3&bg=ffffff&guid=ON&async=1&gtm=45be54f0h2v883158215za204zb9166611554&gcd=13l3l3l3l1l1&dma=0&tag_exp=102509682~102803279~102813109~102887800~102926062~103027016~103051953~103055465~103077950~103116026&ptag_exp=102509683~102803279~102813109~102887800~102926062~103021830~103027016~103051953~103055465~103077950&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.wellsfargo.com%2Fmortgage%2F&hn=www.googleadservices.com&frm=0&tiba=Home%20Mortgage%20Loans%20%26%20Financing%20%7C%20Wells%20Fargo&npa=0&pscdl=noapi&auid=2086763642.1779350242&uaa=x86&uab=64&uafvl=Not%253AA-Brand%3B99.0.0.0%7CHeadlessChrome%3B145.0.7632.6%7CChromium%3B145.0.7632.6&uamb=0&uam=&uap=Linux&uapv=&uaw=0&fledge=1&data=event%3Dgtag.config&is_vtc=1&cid=CAQS4gEABaugfRnqHwbgTIH-O66oNwg8bx4GgN_dSVCWL_4TblZIORQXQ07H5-NFDJAhLqVHFO97gtNA64zeOFOjFQ-nmRqGhMxMjs7rPXNjNctKpdisS-K0PshNvaT6MlXltc8RPsEPq-W7d8PjgKBH1EPBUVaJD-m2gJDRhVV8MMknXURW9qyNyN_bsFfwq-zYAUO-IbNoeKPFqaN5v-NUTF4ZML_qz_GDOW2HsrZO4zPGGAv9cghNDAuKwhRCAkwiH6vQSD8MWhX1_6Dow5NSdcaEgB_Kavw_z9yODZZFdarorisi&random=153442308": "./images/c7d951217b653ddfd0e3308c0891dbe3.png"
+    },
+    "stats": {
+      "total": 41,
+      "converted": 24,
+      "skipped": 2,
+      "failed": 13,
+      "tooLarge": 0,
+      "limitReached": 0
+    }
+  }
+}

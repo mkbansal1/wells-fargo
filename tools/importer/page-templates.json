@@ -1,0 +1,116 @@
+{
+  "metadata": {
+    "projectType": "da"
+  },
+  "templates": [
+    {
+      "name": "mortgage-landing",
+      "urls": ["https://www.wellsfargo.com/mortgage/"],
+      "description": "Mortgage product landing page with loan options, rates, and home buying resources",
+      "blocks": [
+        {
+          "name": "hero-banner",
+          "instances": [".rsk-marquee-container"]
+        },
+        {
+          "name": "cards-icon",
+          "instances": [".small-promo-combined .ps-marketing-small-promo-items"]
+        },
+        {
+          "name": "cards-promo",
+          "instances": [".card-container.three-card"]
+        },
+        {
+          "name": "cards-resource",
+          "instances": [".small-promo-combined .mark-small-promo-simpletext"]
+        },
+        {
+          "name": "accordion-faq",
+          "instances": ["details.show-hide-content-wrapper"]
+        },
+        {
+          "name": "columns-testimonial",
+          "instances": [".card-container.two-card"]
+        },
+        {
+          "name": "columns-contact",
+          "instances": [".card-container.four-card"]
+        }
+      ],
+      "sections": [
+        {
+          "id": "section-1",
+          "name": "Hero",
+          "selector": ".rsk-marquee-container",
+          "style": null,
+          "blocks": ["hero-banner"],
+          "defaultContent": [".enhanced-txt-cm.text-aligned-center"]
+        },
+        {
+          "id": "section-2",
+          "name": "Homebuying",
+          "selector": "main .small-promo-combined:nth-of-type(1)",
+          "style": null,
+          "blocks": ["cards-icon"],
+          "defaultContent": [".ps-mid-page-title", ".ps-padding .ps-btn-secondary"]
+        },
+        {
+          "id": "section-3",
+          "name": "Refinancing",
+          "selector": "main .small-promo-combined:nth-of-type(2)",
+          "style": null,
+          "blocks": ["cards-icon"],
+          "defaultContent": [".ps-mid-page-title", ".ps-padding .ps-btn-secondary"]
+        },
+        {
+          "id": "section-4",
+          "name": "Get More",
+          "selector": ".card-background-white:has(.three-card)",
+          "style": null,
+          "blocks": ["cards-promo"],
+          "defaultContent": [".ps-mid-page-title"]
+        },
+        {
+          "id": "section-5",
+          "name": "Mortgage Tools",
+          "selector": "main .small-promo-combined:nth-of-type(3)",
+          "style": null,
+          "blocks": ["cards-resource"],
+          "defaultContent": [".ps-mid-page-title"]
+        },
+        {
+          "id": "section-6",
+          "name": "FAQ",
+          "selector": ".card-background-white:has(.show-hide-content-wrapper)",
+          "style": null,
+          "blocks": ["accordion-faq"],
+          "defaultContent": [".ps-mid-page-title", ".ps-padding .ps-btn-secondary"]
+        },
+        {
+          "id": "section-7",
+          "name": "Testimonials",
+          "selector": ".card-background-white:has(.two-card)",
+          "style": null,
+          "blocks": ["columns-testimonial"],
+          "defaultContent": [".ps-mid-page-title"]
+        },
+        {
+          "id": "section-8",
+          "name": "Contact",
+          "selector": ".card-background-white:has(.four-card)",
+          "style": null,
+          "blocks": ["columns-contact"],
+          "defaultContent": [".ps-mid-page-title"]
+        },
+        {
+          "id": "section-9",
+          "name": "Quick Help",
+          "selector": "main > .enhanced-txt-cm.text-aligned-left",
+          "style": null,
+          "blocks": [],
+          "defaultContent": [".title2-SemiBold h3", ".link-list-desc", ".subheadline-regular p"]
+        }
+      ]
+    }
+  ]
+}

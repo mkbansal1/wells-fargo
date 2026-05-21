@@ -1,0 +1,345 @@
+{
+  "url": "https://www.wellsfargo.com/mortgage/",
+  "documentPath": "/mortgage/index",
+  "analysisTimestamp": "2026-05-21T07:59:00.000Z",
+  "variantMapping": {
+    "hero": "hero-banner",
+    "cards (sections 2,3)": "cards-icon",
+    "cards (section 4)": "cards-promo",
+    "cards (section 5, no images)": "cards-resource",
+    "accordion": "accordion-faq",
+    "columns (section 7)": "columns-testimonial",
+    "columns (section 8)": "columns-contact"
+  },
+  "sections": [
+    {
+      "sectionNumber": 1,
+      "style": "light",
+      "sectionMetadata": null,
+      "sequences": [
+        {
+          "sequenceNumber": 1,
+          "description": "Full-width image of kids running in hallway with overlay heading 'Thinking of buying or refinancing?'",
+          "decision": "block",
+          "blockName": "hero-banner",
+          "blockVariant": "hero-banner",
+          "baseBlock": "hero",
+          "reason": "Full-width banner with background image and text overlay requires Hero block structure (image row + content row)"
+        },
+        {
+          "sequenceNumber": 2,
+          "description": "Centered heading 'Get started with a personalized rate quote', description paragraph, and two primary CTA buttons",
+          "decision": "default-content",
+          "blockName": null,
+          "reason": "Author can type heading, paragraph, and link buttons normally. Centered alignment is CSS styling."
+        }
+      ]
+    },
+    {
+      "sectionNumber": 2,
+      "style": "light",
+      "sectionMetadata": null,
+      "sequences": [
+        {
+          "sequenceNumber": 1,
+          "description": "Section heading 'Homebuying starts here'",
+          "decision": "default-content",
+          "blockName": null,
+          "reason": "Just a heading - author types it"
+        },
+        {
+          "sequenceNumber": 2,
+          "description": "Four items with colored gradient icon, heading, description, and CTA link",
+          "decision": "block",
+          "blockName": "cards-icon",
+          "blockVariant": "cards-icon",
+          "baseBlock": "cards",
+          "reason": "Repeating structured pattern of 4 items each with icon/image + text content. Obvious match with Cards block (2-column: image | text)."
+        },
+        {
+          "sequenceNumber": 3,
+          "description": "Secondary button 'Learn more about homebuying'",
+          "decision": "default-content",
+          "blockName": null,
+          "reason": "Single link/button - author types it"
+        }
+      ]
+    },
+    {
+      "sectionNumber": 3,
+      "style": "light",
+      "sectionMetadata": null,
+      "sequences": [
+        {
+          "sequenceNumber": 1,
+          "description": "Section heading 'Explore the benefits of refinancing'",
+          "decision": "default-content",
+          "blockName": null,
+          "reason": "Just a heading - author types it"
+        },
+        {
+          "sequenceNumber": 2,
+          "description": "Four items with colored gradient icon, heading, description, and CTA link",
+          "decision": "block",
+          "blockName": "cards-icon",
+          "blockVariant": "cards-icon",
+          "baseBlock": "cards",
+          "reason": "Repeating structured pattern of 4 items each with icon/image + text content. Same pattern as Section 2. Cards block."
+        },
+        {
+          "sequenceNumber": 3,
+          "description": "Secondary button 'Learn more about refinancing'",
+          "decision": "default-content",
+          "blockName": null,
+          "reason": "Single link/button - author types it"
+        }
+      ]
+    },
+    {
+      "sectionNumber": 4,
+      "style": "white",
+      "sectionMetadata": null,
+      "sequences": [
+        {
+          "sequenceNumber": 1,
+          "description": "Section heading 'Get more with your mortgage'",
+          "decision": "default-content",
+          "blockName": null,
+          "reason": "Just a heading - author types it"
+        },
+        {
+          "sequenceNumber": 2,
+          "description": "Three cards with large illustration image, heading, description, and text link CTA",
+          "decision": "block",
+          "blockName": "cards-promo",
+          "blockVariant": "cards-promo",
+          "baseBlock": "cards",
+          "reason": "Repeating structured pattern of 3 items each with image + text content. Cards block with images."
+        }
+      ]
+    },
+    {
+      "sectionNumber": 5,
+      "style": "light",
+      "sectionMetadata": null,
+      "sequences": [
+        {
+          "sequenceNumber": 1,
+          "description": "Section heading 'Grow your knowledge with our mortgage tools'",
+          "decision": "default-content",
+          "blockName": null,
+          "reason": "Just a heading - author types it"
+        },
+        {
+          "sequenceNumber": 2,
+          "description": "Four text-only items with heading, description, and CTA link (no icons)",
+          "decision": "block",
+          "blockName": "cards-resource",
+          "blockVariant": "cards-resource",
+          "baseBlock": "cards",
+          "reason": "Repeating structured pattern of 4 items with heading + description + link. Cards (no images) variant - 1-column table structure."
+        }
+      ]
+    },
+    {
+      "sectionNumber": 6,
+      "style": "white",
+      "sectionMetadata": null,
+      "sequences": [
+        {
+          "sequenceNumber": 1,
+          "description": "Section heading 'Common mortgage questions'",
+          "decision": "default-content",
+          "blockName": null,
+          "reason": "Just a heading - author types it"
+        },
+        {
+          "sequenceNumber": 2,
+          "description": "Four expandable/collapsible question-answer pairs",
+          "decision": "block",
+          "blockName": "accordion-faq",
+          "blockVariant": "accordion-faq",
+          "baseBlock": "accordion",
+          "reason": "Interactive expandable/collapsible FAQ content. Obvious match with Accordion block (2-column: title | content)."
+        },
+        {
+          "sequenceNumber": 3,
+          "description": "Secondary button 'More home loan FAQs'",
+          "decision": "default-content",
+          "blockName": null,
+          "reason": "Single link/button - author types it"
+        }
+      ]
+    },
+    {
+      "sectionNumber": 7,
+      "style": "white",
+      "sectionMetadata": null,
+      "sequences": [
+        {
+          "sequenceNumber": 1,
+          "description": "Section heading 'Hear from our customers'",
+          "decision": "default-content",
+          "blockName": null,
+          "reason": "Just a heading - author types it"
+        },
+        {
+          "sequenceNumber": 2,
+          "description": "Two customer testimonial quotes displayed side by side with customer names",
+          "decision": "block",
+          "blockName": "columns-testimonial",
+          "blockVariant": "columns-testimonial",
+          "baseBlock": "columns",
+          "reason": "Two pieces of content displayed side by side. Columns block with 2 columns, each containing quoted text and attribution."
+        }
+      ]
+    },
+    {
+      "sectionNumber": 8,
+      "style": "white",
+      "sectionMetadata": null,
+      "sequences": [
+        {
+          "sequenceNumber": 1,
+          "description": "Section heading 'Talk to a mortgage consultant'",
+          "decision": "default-content",
+          "blockName": null,
+          "reason": "Just a heading - author types it"
+        },
+        {
+          "sequenceNumber": 2,
+          "description": "Four contact information cards in a grid layout with phone numbers, hours, and CTAs",
+          "decision": "block",
+          "blockName": "columns-contact",
+          "blockVariant": "columns-contact",
+          "baseBlock": "columns",
+          "reason": "Four items of contact information displayed side by side in a grid. Columns block with 4 columns, each containing heading, text, and optional CTA."
+        }
+      ]
+    },
+    {
+      "sectionNumber": 9,
+      "style": "light",
+      "sectionMetadata": null,
+      "sequences": [
+        {
+          "sequenceNumber": 1,
+          "description": "Heading 'Quick help' with list of four utility links",
+          "decision": "default-content",
+          "blockName": null,
+          "reason": "Heading and a bulleted list of links - author types them normally"
+        },
+        {
+          "sequenceNumber": 2,
+          "description": "Legal disclaimer paragraphs",
+          "decision": "default-content",
+          "blockName": null,
+          "reason": "Just text paragraphs - author types them"
+        }
+      ]
+    }
+  ],
+  "blocksUsed": [
+    {
+      "blockName": "hero-banner",
+      "baseBlock": "hero",
+      "variant": "hero-banner",
+      "usedInSections": [1],
+      "structure": "1 column, 3 rows: [block-name] | [image] | [heading + text + CTA]"
+    },
+    {
+      "blockName": "cards-icon",
+      "baseBlock": "cards",
+      "variant": "cards-icon",
+      "usedInSections": [2, 3],
+      "structure": "2 columns, multiple rows: [image/icon | heading + description + CTA] per row"
+    },
+    {
+      "blockName": "cards-promo",
+      "baseBlock": "cards",
+      "variant": "cards-promo",
+      "usedInSections": [4],
+      "structure": "2 columns, multiple rows: [image | heading + description + CTA] per row"
+    },
+    {
+      "blockName": "cards-resource",
+      "baseBlock": "cards",
+      "variant": "cards-resource",
+      "usedInSections": [5],
+      "structure": "1 column, multiple rows: [heading + description + CTA] per row"
+    },
+    {
+      "blockName": "accordion-faq",
+      "baseBlock": "accordion",
+      "variant": "accordion-faq",
+      "usedInSections": [6],
+      "structure": "2 columns, multiple rows: [question title | answer content] per row"
+    },
+    {
+      "blockName": "columns-testimonial",
+      "baseBlock": "columns",
+      "variant": "columns-testimonial",
+      "usedInSections": [7],
+      "structure": "2 columns per row: each cell is one column of quoted testimonial content"
+    },
+    {
+      "blockName": "columns-contact",
+      "baseBlock": "columns",
+      "variant": "columns-contact",
+      "usedInSections": [8],
+      "structure": "4 columns per row: each cell contains heading + phone/hours/CTA"
+    }
+  ],
+  "blockStructures": {
+    "hero-banner": {
+      "tableColumns": 1,
+      "rows": [
+        {"row": 1, "content": "Block name 'Hero-banner'"},
+        {"row": 2, "content": "Background image (picture element)"},
+        {"row": 3, "content": "Title (heading) + Subheading (paragraph) + CTA (link)"}
+      ]
+    },
+    "cards-icon": {
+      "tableColumns": 2,
+      "rows": [
+        {"row": 1, "content": "Block name 'Cards-icon'"},
+        {"row": "2+", "content": "Col 1: Icon/Image | Col 2: Heading + Description + CTA link"}
+      ]
+    },
+    "cards-promo": {
+      "tableColumns": 2,
+      "rows": [
+        {"row": 1, "content": "Block name 'Cards-promo'"},
+        {"row": "2+", "content": "Col 1: Large illustration image | Col 2: Heading + Description + CTA link"}
+      ]
+    },
+    "cards-resource": {
+      "tableColumns": 1,
+      "rows": [
+        {"row": 1, "content": "Block name 'Cards-resource'"},
+        {"row": "2+", "content": "Col 1: Heading + Description + CTA link"}
+      ]
+    },
+    "accordion-faq": {
+      "tableColumns": 2,
+      "rows": [
+        {"row": 1, "content": "Block name 'Accordion-faq'"},
+        {"row": "2+", "content": "Col 1: Question title | Col 2: Answer content (paragraphs, lists, links)"}
+      ]
+    },
+    "columns-testimonial": {
+      "tableColumns": 2,
+      "rows": [
+        {"row": 1, "content": "Block name 'Columns-testimonial'"},
+        {"row": "2+", "content": "Col 1: Quote text + attribution | Col 2: Quote text + attribution"}
+      ]
+    },
+    "columns-contact": {
+      "tableColumns": 4,
+      "rows": [
+        {"row": 1, "content": "Block name 'Columns-contact'"},
+        {"row": "2+", "content": "Col 1-4: Each with heading + phone/text/CTA"}
+      ]
+    }
+  }
+}
