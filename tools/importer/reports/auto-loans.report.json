@@ -1,0 +1,19 @@
+{
+  "status": "success",
+  "url": "https://www.wellsfargo.com/auto-loans/",
+  "path": "auto-loans",
+  "timestamp": "2026-05-21T09:24:55.104Z",
+  "title": "Auto loans and financing | Wells Fargo",
+  "template": "auto-loans-landing",
+  "blocks": [
+    "hero-banner",
+    "cards-icon",
+    "cards-icon",
+    "columns-app-promo",
+    "cards-promo",
+    "accordion-faq",
+    "accordion-faq",
+    "accordion-faq",
+    "accordion-faq"
+  ]
+}

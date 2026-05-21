@@ -1,169 +1,141 @@
 {
-  "url": "https://www.wellsfargo.com/mortgage/",
-  "documentPath": "/mortgage/index",
+  "url": "https://www.wellsfargo.com/auto-loans/",
+  "title": "Auto loans and financing | Wells Fargo",
+  "documentPath": "/auto-loans/index",
   "sections": [
     {
       "sectionNumber": 1,
-      "style": "light",
-      "description": "Hero area with full-width image and rate quote CTA",
+      "name": "Hero/Marquee",
+      "background": "red gradient with large photo",
+      "style": "dark (red brand color background with image)",
+      "overview": "Full-width hero banner with car/family photo and text overlay with CTA",
       "sequences": [
         {
           "sequenceNumber": 1,
-          "description": "Full-width image of kids running in hallway with overlay heading 'Thinking of buying or refinancing?'"
-        },
-        {
-          "sequenceNumber": 2,
-          "description": "Centered heading 'Get started with a personalized rate quote', description paragraph, and two primary CTA buttons (Home purchase, Refinance)"
+          "description": "Full-width banner with background image of family with car, heading 'The easy way to manage your auto loan', supporting text about account setup, and a 'Get started' call-to-action button"
         }
       ]
     },
     {
       "sectionNumber": 2,
-      "style": "light with gradient card backgrounds",
-      "description": "Homebuying starts here - four icon-based promo items",
+      "name": "Benefits",
+      "background": "white/light",
+      "style": "light",
+      "overview": "Three icon-based feature cards highlighting auto financing benefits",
       "sequences": [
         {
           "sequenceNumber": 1,
-          "description": "Section heading 'Homebuying starts here'"
+          "description": "Centered heading 'Benefits of Wells Fargo auto financing'"
         },
         {
           "sequenceNumber": 2,
-          "description": "Four items displayed vertically/in grid, each with a colored gradient icon, heading, description paragraph, and a CTA link (See what you can afford, Shop for homes, Learn how to buy your first home, Ready to apply?)"
-        },
-        {
-          "sequenceNumber": 3,
-          "description": "Secondary button 'Learn more about homebuying'"
+          "description": "Grid of 3 items, each with a small circular icon, heading, and short description text (Nationwide network, Convenience, Peace of mind)"
         }
       ]
     },
     {
       "sectionNumber": 3,
-      "style": "light with gradient card backgrounds",
-      "description": "Explore the benefits of refinancing - four icon-based promo items",
+      "name": "Mobile App Promo",
+      "background": "teal/green gradient",
+      "style": "accent (teal/green background)",
+      "overview": "App promotion section with phone mockup image and app store download links",
       "sequences": [
         {
           "sequenceNumber": 1,
-          "description": "Section heading 'Explore the benefits of refinancing'"
-        },
-        {
-          "sequenceNumber": 2,
-          "description": "Four items displayed vertically/in grid, each with a colored gradient icon, heading, description paragraph, and a CTA link (See if you could lower your payment, Estimate your home's value, Tap into your home's equity, Apply for your refinance)"
-        },
-        {
-          "sequenceNumber": 3,
-          "description": "Secondary button 'Learn more about refinancing'"
+          "description": "Two-column layout: left side has phone mockup image showing app screen; right side has heading 'Banking where and when you need it', description text about account access, and Apple/Google app store download badges"
         }
       ]
     },
     {
       "sectionNumber": 4,
-      "style": "white",
-      "description": "Get more with your mortgage - three promotional cards with images",
+      "name": "Auto Loan Journey Cards",
+      "background": "white/light",
+      "style": "light",
+      "overview": "Three promotional cards with images showing different loan journey stages",
       "sequences": [
         {
           "sequenceNumber": 1,
-          "description": "Section heading 'Get more with your mortgage'"
+          "description": "Centered heading 'Wherever you are in your auto loan journey, we're here for you'"
         },
         {
           "sequenceNumber": 2,
-          "description": "Three cards in a grid layout, each with a large illustration image, heading, description text, and a text link CTA ($10,000 down payment grant, Up to $5,000 for closing costs, Relationship benefits)"
+          "description": "Grid of 3 cards, each with a large landscape image, bold title, description text, and a text link CTA (Learn about auto financing, Explore payment options, Get help with payments)"
         }
       ]
     },
     {
       "sectionNumber": 5,
-      "style": "light with gradient card backgrounds",
-      "description": "Grow your knowledge with our mortgage tools - four text-only promo items",
+      "name": "FAQ",
+      "background": "white/light",
+      "style": "light",
+      "overview": "Expandable FAQ section with questions and answers",
       "sequences": [
         {
           "sequenceNumber": 1,
-          "description": "Section heading 'Grow your knowledge with our mortgage tools'"
+          "description": "Centered heading 'Answers to auto loan questions'"
         },
         {
           "sequenceNumber": 2,
-          "description": "Four items displayed vertically/in grid, text-only (no icons), each with heading, description paragraph, and a CTA link (Mortgage calculators, Today's mortgage and refinance rates, Learning center, Manage your account)"
+          "description": "Four expandable question-answer pairs about auto loan topics (applying, managing online, paper statements, payment due date)"
+        },
+        {
+          "sequenceNumber": 3,
+          "description": "Centered secondary button 'Review all FAQs' linking to full FAQ page"
         }
       ]
     },
     {
       "sectionNumber": 6,
-      "style": "white",
-      "description": "Common mortgage questions - FAQ accordion",
+      "name": "Customer Support",
+      "background": "white/light with gradient card backgrounds",
+      "style": "light with gradient card backgrounds",
+      "overview": "Three support option cards with icons and contact info",
       "sequences": [
         {
           "sequenceNumber": 1,
-          "description": "Section heading 'Common mortgage questions'"
+          "description": "Centered heading 'Customer support'"
         },
         {
           "sequenceNumber": 2,
-          "description": "Four expandable/collapsible question-answer pairs (How much home can I afford?, What parts of my finances does a mortgage lender review?, What is the minimum down payment for conventional FHA and VA loans?, What other costs are part of my mortgage?)"
-        },
-        {
-          "sequenceNumber": 3,
-          "description": "Secondary button 'More home loan FAQs'"
-        }
-      ]
-    },
-    {
-      "sectionNumber": 7,
-      "style": "white",
-      "description": "Hear from our customers - testimonials",
-      "sequences": [
-        {
-          "sequenceNumber": 1,
-          "description": "Section heading 'Hear from our customers'"
-        },
-        {
-          "sequenceNumber": 2,
-          "description": "Two customer testimonial quotes displayed side by side, each with quoted text and customer name (Despina K., Kenneth F.)"
-        }
-      ]
-    },
-    {
-      "sectionNumber": 8,
-      "style": "white",
-      "description": "Talk to a mortgage consultant - contact information cards",
-      "sequences": [
-        {
-          "sequenceNumber": 1,
-          "description": "Section heading 'Talk to a mortgage consultant'"
-        },
-        {
-          "sequenceNumber": 2,
-          "description": "Four contact information cards in a grid (Buying or Refinancing with phone/hours, Account servicing with phone/hours, Let us contact you with CTA button, Find a consultant with search CTA)"
-        }
-      ]
-    },
-    {
-      "sectionNumber": 9,
-      "style": "light",
-      "description": "Quick help links and legal disclaimers",
-      "sequences": [
-        {
-          "sequenceNumber": 1,
-          "description": "Heading 'Quick help' with a list of four utility links (Finish a saved application, Sign on to manage your account, Customer help and payment options, Voice a concern)"
-        },
-        {
-          "sequenceNumber": 2,
-          "description": "Legal disclaimer paragraphs about loan terms and servicemember relief"
+          "description": "Grid of 3 items, each with a circular icon, heading, description text, and a CTA link (Ask Fargo with 'Meet Fargo' link, Financial Health with 'Learn more' link, Call us with phone number and hours)"
         }
       ]
     }
   ],
+  "excludedElements": [
+    "Header/navigation (auto-populated by AEM EDS)",
+    "Footer (auto-populated by AEM EDS)",
+    "Cookie consent banner",
+    "Exit modals (App Store/Google Play leaving site warnings)",
+    "Footnotes section (will be handled as metadata or separate fragment)",
+    "Feedback survey widget"
+  ],
   "blockInventory": {
-    "local": ["cards", "columns", "footer", "fragment", "header", "hero"],
-    "blockCollection": [
-      {"name": "Table", "purpose": "Organize tabular data into rows and columns"},
-      {"name": "Columns", "purpose": "Present content side by side in multiple columns"},
-      {"name": "Cards", "purpose": "Showcase distinct pieces of information in card-based layout with images/text"},
-      {"name": "Cards (no images)", "purpose": "Cards without images, text-only content"},
-      {"name": "Video", "purpose": "Embed stand-alone video"},
-      {"name": "Accordion", "purpose": "Collapsible sections for FAQ or grouped content"},
-      {"name": "Hero", "purpose": "Prominent image with headline and CTA at top of page"},
-      {"name": "Carousel", "purpose": "Rotating/swipable image slides"},
-      {"name": "Tabs", "purpose": "Multiple content sections accessible by tab selection"},
-      {"name": "Search", "purpose": "Site content search"},
-      {"name": "Embed", "purpose": "Embed external video or social media content"}
+    "localBlocks": [
+      { "name": "hero", "description": "Large heading, text, buttons for page intro" },
+      { "name": "hero-banner", "description": "Product hero with full-width banner image and heading overlay" },
+      { "name": "cards", "description": "Grid of items with images/text" },
+      { "name": "cards-icon", "description": "Feature cards with small icons, heading, description, CTA" },
+      { "name": "cards-promo", "description": "Promotional cards with large images, heading, description, text link" },
+      { "name": "cards-resource", "description": "Text-only resource/tool navigation cards" },
+      { "name": "columns", "description": "Side-by-side content layout" },
+      { "name": "columns-contact", "description": "Multi-channel contact info grid (4 columns)" },
+      { "name": "columns-testimonial", "description": "Two-column customer testimonial quotes" },
+      { "name": "accordion-faq", "description": "FAQ-style expandable question-answer pairs" },
+      { "name": "fragment", "description": "Reusable content sections" }
+    ],
+    "blockCollectionAvailable": [
+      { "name": "hero", "description": "Large heading, text, buttons for page intro with background image" },
+      { "name": "cards", "description": "Grid of items with images and text in 2 columns" },
+      { "name": "cards (no images)", "description": "Text-only card grid with heading, description, CTA" },
+      { "name": "columns", "description": "Side-by-side content in multiple columns" },
+      { "name": "accordion", "description": "Collapsible sections for Q&A content" },
+      { "name": "tabs", "description": "Tabbed content switching interface" },
+      { "name": "carousel", "description": "Rotating/swipable image and content slides" },
+      { "name": "video", "description": "Embedded video player" },
+      { "name": "embed", "description": "External content embedding (video, social)" },
+      { "name": "table", "description": "Tabular data display" },
+      { "name": "search", "description": "Site content search interface" }
     ]
   }
 }
