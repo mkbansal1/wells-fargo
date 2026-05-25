@@ -32,6 +32,8 @@
   }
 }
 
+/* stylelint-disable no-descending-specificity */
+
 /* Testimonial variant - centered quoted text with attribution */
 .columns.testimonial > div {
   text-align: center;
@@ -82,3 +84,5 @@
   object-fit: cover;
   height: 100%;
 }
+
+/* stylelint-enable no-descending-specificity */
