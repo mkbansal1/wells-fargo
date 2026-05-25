@@ -1,14 +1,15 @@
 {
-  "url": "https://www.wellsfargo.com/auto-loans/make-payments/",
-  "documentPath": "/auto-loans/make-payments/index",
-  "analysisTimestamp": "2026-05-25T05:10:00.000Z",
+  "url": "https://www.wellsfargo.com/auto-loans/vehicle-financing-101/",
+  "documentPath": "/auto-loans/vehicle-financing-101/index",
+  "analysisTimestamp": "2026-05-25T05:15:00.000Z",
   "variantMapping": {
     "hero": "hero",
-    "cards (icon)": "cards (icon)",
+    "accordion-faq": "accordion-faq",
     "columns (promo)": "columns (promo)",
-    "accordion-faq": "accordion-faq"
+    "cards": "cards",
+    "cards (icon)": "cards (icon)"
   },
-  "variantNotes": "All blocks map to existing block names and style variants. No new block directories needed. Cards (icon) is a CSS style variant within the cards block. Columns (promo) is a CSS style variant within the columns block. Accordion-faq is a standalone block.",
+  "variantNotes": "All blocks map to existing block names and style variants. No new block directories needed. The original page has two tabbed interfaces that do not have a matching tabs block in this project - these are best represented as Accordion-faq blocks since they contain title+content expandable pairs. Cards is used for the 'Before you buy' image cards. Cards (icon) is used for the 'Additional resources' icon-based resource cards. Columns (promo) is used for the Credit Close-Up promotional block with image+text side-by-side.",
   "sections": [
     {
       "sectionNumber": 1,
@@ -20,7 +21,7 @@
       "sequences": [
         {
           "sequenceNumber": 1,
-          "description": "Full-width marquee image of woman on phone with centered heading 'Choose your way to pay' and subtext 'Make individual auto loan payments or set it and forget it with automatic payments.'",
+          "description": "Full-width marquee image of a truck at a dealership, with centered heading 'Ask your dealer about Wells Fargo auto loans' and subtext 'Our nationwide network of nearly 11,000 dealerships is ready to help.'",
           "decision": "BLOCK",
           "reason": "Full-width background image with text overlay requires hero block structure. Cannot be achieved with default content authoring.",
           "blockName": "hero",
@@ -31,7 +32,7 @@
     },
     {
       "sectionNumber": 2,
-      "name": "Auto Loan Payment Options",
+      "name": "Auto loans: what to know",
       "sectionMetadata": {
         "style": "none",
         "reason": "White background is the default, no section-metadata needed"
@@ -39,36 +40,43 @@
       "sequences": [
         {
           "sequenceNumber": 1,
-          "description": "Centered section heading 'Auto loan payment options' with decorative line above",
+          "description": "Centered section heading 'Auto loans: what to know' with decorative line above, followed by paragraph 'Financing a car can be overwhelming. Understanding the common variables of auto loans makes the process easier.'",
           "decision": "DEFAULT CONTENT",
-          "reason": "Author types an H2 heading. The decorative line above is a CSS concern (can be styled via section first-child heading pseudo-element).",
+          "reason": "Author types an H2 heading and paragraph. The decorative line above is a CSS concern. Standard text content.",
           "blockName": null
         },
         {
           "sequenceNumber": 2,
-          "description": "Tabbed/selectable content with 3 payment methods (Online, Phone, Mail), each with icon and description. Online: enroll in online banking description + Get started CTA. Phone: automated system info + phone number 1-800-289-8004. Mail: check/money order instructions + mailing address.",
+          "description": "Tabbed/expandable content with 4 auto loan variables (Interest rate, Term length, Total amount financed, Monthly payment amount), each with icon and explanatory paragraph.",
           "decision": "BLOCK",
-          "reason": "Structured repeating content with icons representing 3 payment methods. While the original has tab switching behavior, the static content structure matches Cards (icon) which displays items with small icons and text. Each payment method has an icon, title, and descriptive text. No tabs block exists in this project.",
-          "blockName": "cards (icon)",
-          "blockVariant": "cards (icon)",
+          "reason": "Interactive expandable content with title + description pairs. The original page uses tabs with icons, but no tabs block exists in this project. Accordion-faq is the best available match for structured expandable content pairs (title reveals descriptive text). Each item has a term name (question equivalent) and explanation (answer equivalent).",
+          "blockName": "accordion-faq",
+          "blockVariant": "accordion-faq",
           "variantDecision": "REUSE",
-          "note": "The original page uses a tabbed interface but since no tabs block exists, Cards (icon) is the best available match for structured content with icons. The 3 payment methods will display as a grid of icon cards."
+          "note": "Original design uses icon-tabbed interface. Mapped to accordion-faq as closest available block for title+content expandable pairs. The tab icons will not be preserved, but the content structure (title + explanatory paragraph) translates directly."
         }
       ]
     },
     {
       "sectionNumber": 3,
-      "name": "Autopay Promo",
+      "name": "Credit Close-Up Promo",
       "sectionMetadata": {
-        "style": "gold",
-        "reason": "Gold/yellow background provides section container styling for the promotional columns content. The background is a solid accent color with visible padding, not block-specific design."
+        "style": "none",
+        "reason": "White background is the default for this section, no section-metadata needed"
       },
       "sequences": [
         {
           "sequenceNumber": 1,
-          "description": "Promotional banner with image of woman on left side, heading 'Autopay lets you focus on what matters', paragraph about Autopay debiting monthly from checking/savings account, and 'Sign on' CTA button on right side",
+          "description": "Centered section heading 'Increase your likelihood of credit approval' with decorative line above",
+          "decision": "DEFAULT CONTENT",
+          "reason": "Author types an H2 heading. Decorative line is a CSS concern.",
+          "blockName": null
+        },
+        {
+          "sequenceNumber": 2,
+          "description": "Large promotional block with credit score gauge image (showing 808 score) on left side, and on right: heading 'Track your credit score with Credit Close-Up', descriptive paragraph, bullet list of 3 benefits, footnote disclaimer, and 'Let's go' CTA button",
           "decision": "BLOCK",
-          "reason": "Side-by-side layout with image on left and promotional text content with CTA on right. Requires structured layout that matches Columns (promo) variant - a 2-column promotional layout.",
+          "reason": "Side-by-side layout with image on left and promotional text content with bullet list and CTA on right. Requires structured 2-column layout that matches Columns (promo) variant.",
           "blockName": "columns (promo)",
           "blockVariant": "columns (promo)",
           "variantDecision": "REUSE"
@@ -77,7 +85,7 @@
     },
     {
       "sectionNumber": 4,
-      "name": "Related Questions",
+      "name": "Before you buy",
       "sectionMetadata": {
         "style": "none",
         "reason": "White background is the default, no section-metadata needed"
@@ -85,16 +93,69 @@
       "sequences": [
         {
           "sequenceNumber": 1,
-          "description": "Centered section heading 'Related questions' with decorative line above",
+          "description": "Centered section heading 'Before you buy' with decorative line above",
           "decision": "DEFAULT CONTENT",
           "reason": "Author types an H2 heading. Decorative line is a CSS concern.",
           "blockName": null
         },
         {
           "sequenceNumber": 2,
-          "description": "Four expandable question-and-answer pairs: 'Can I make my car payment in advance?', 'How do I set up, change, or cancel automatic loan payments?', 'How do I change my payment due date?', 'Where can I find my payoff amount for my auto loan?'",
+          "description": "Grid of 3 cards, each with large top image (car/vehicle photos), bold title (Plan, Research, Budget), and descriptive paragraph. Research card includes links to external sites.",
           "decision": "BLOCK",
-          "reason": "Interactive expandable/collapsible FAQ content requires block decoration. Matches the accordion-faq block exactly.",
+          "reason": "Repeating structured pattern of 3 items each with image, title, and description text. Classic cards layout with image-heavy content. Matches base Cards block (no variant needed - standard image + title + text structure).",
+          "blockName": "cards",
+          "blockVariant": "cards",
+          "variantDecision": "REUSE"
+        }
+      ]
+    },
+    {
+      "sectionNumber": 5,
+      "name": "How to evaluate new and used vehicles",
+      "sectionMetadata": {
+        "style": "none",
+        "reason": "White background is the default, no section-metadata needed"
+      },
+      "sequences": [
+        {
+          "sequenceNumber": 1,
+          "description": "Centered section heading 'How to evaluate new and used vehicles' with decorative line above",
+          "decision": "DEFAULT CONTENT",
+          "reason": "Author types an H2 heading. Decorative line is a CSS concern.",
+          "blockName": null
+        },
+        {
+          "sequenceNumber": 2,
+          "description": "Tabbed/expandable content with 4 vehicle evaluation steps (Find a vehicle you love, Inspect and test drive, Explore incentives, Ask about warranties), each with icon and explanatory paragraph.",
+          "decision": "BLOCK",
+          "reason": "Interactive expandable content with title + description pairs. Same pattern as Section 2 tabs. Accordion-faq is the best available match for title+content expandable pairs. Each step name maps to a question and the explanatory paragraph maps to an answer.",
+          "blockName": "accordion-faq",
+          "blockVariant": "accordion-faq",
+          "variantDecision": "REUSE",
+          "note": "Original design uses icon-tabbed interface. Mapped to accordion-faq as closest available block for title+content expandable pairs. Tab icons will not be preserved."
+        }
+      ]
+    },
+    {
+      "sectionNumber": 6,
+      "name": "Answers to auto financing questions",
+      "sectionMetadata": {
+        "style": "none",
+        "reason": "White background is the default, no section-metadata needed"
+      },
+      "sequences": [
+        {
+          "sequenceNumber": 1,
+          "description": "Centered section heading 'Answers to auto financing questions' with decorative line above",
+          "decision": "DEFAULT CONTENT",
+          "reason": "Author types an H2 heading. Decorative line is a CSS concern.",
+          "blockName": null
+        },
+        {
+          "sequenceNumber": 2,
+          "description": "Four expandable question-and-answer pairs (accordion style): 'How much experience does Wells Fargo have with auto financing?', 'How do I apply for a Wells Fargo auto loan?', 'What are aftermarket products?', 'What is Guaranteed Asset Protection (GAP)?'",
+          "decision": "BLOCK",
+          "reason": "Interactive expandable/collapsible FAQ content requires block decoration. Matches the accordion-faq block exactly - this is the canonical use case.",
           "blockName": "accordion-faq",
           "blockVariant": "accordion-faq",
           "variantDecision": "REUSE"
@@ -103,40 +164,40 @@
           "sequenceNumber": 3,
           "description": "Centered secondary button 'Review all FAQs' linking to /help/loans/auto-loans-faqs/",
           "decision": "DEFAULT CONTENT",
-          "reason": "Author types a link. The button styling is applied via CSS to links (EDS auto-decorates links as buttons).",
+          "reason": "Author types a link. EDS auto-decorates standalone links as buttons. No block structure needed.",
           "blockName": null
         }
       ]
     },
     {
-      "sectionNumber": 5,
-      "name": "Customer Support",
+      "sectionNumber": 7,
+      "name": "Additional resources",
       "sectionMetadata": {
         "style": "none",
-        "reason": "White background is the default, no section-metadata needed"
+        "reason": "White background is the default. The gold gradient is on individual card items (block-level styling), not the section."
       },
       "sequences": [
         {
           "sequenceNumber": 1,
-          "description": "Centered section heading 'Customer support' with decorative line above",
+          "description": "Centered section heading 'Additional resources' with decorative line above",
           "decision": "DEFAULT CONTENT",
           "reason": "Author types an H2 heading. Decorative line is a CSS concern.",
           "blockName": null
         },
         {
           "sequenceNumber": 2,
-          "description": "Grid of 3 items, each with small icon (64x64) on gold gradient, heading, description text, and action link. Items: 'Help with auto loan payments' (Learn more link to /auto-loans/assist/), 'Auto financing' (Let's go link to /auto-loans/vehicle-financing-101/), 'Call us' (phone 1-800-289-8004 with Mon-Sat hours)",
+          "description": "Grid of 3 resource items, each with small icon (64x64), heading, description text, and CTA link on gold gradient card backgrounds. Items: 'Explore payment options' (cash icon, link), 'LifeSync' (goal icon, link), 'Call us' (phone icon, phone number and hours)",
           "decision": "BLOCK",
-          "reason": "Repeating structured pattern of items with small icons, headings, descriptions, and action links. Matches Cards (icon) variant which displays small icon images with text content.",
+          "reason": "Repeating structured pattern of items with small icons (64x64), headings, descriptions, and action links. Matches Cards (icon) variant which displays small icon images with text content.",
           "blockName": "cards (icon)",
           "blockVariant": "cards (icon)",
           "variantDecision": "REUSE",
-          "note": "Same Cards (icon) variant as Section 2. Icon cards with action links at the bottom of each card."
+          "note": "Cards (icon) variant uses small icon images (typically 64px) rather than large photographs, suitable for resource/utility card layouts."
         }
       ]
     },
     {
-      "sectionNumber": 6,
+      "sectionNumber": 8,
       "name": "Footnotes and Disclaimers",
       "sectionMetadata": {
         "style": "none",
@@ -145,9 +206,9 @@
       "sequences": [
         {
           "sequenceNumber": 1,
-          "description": "Numbered footnotes: '1. Availability may be affected by your mobile carrier's coverage area...' and '2. Terms and conditions apply...' followed by document codes QSR-12062026-8049532.1.1 and LRC-0925",
+          "description": "Numbered footnotes (1-3) with detailed disclaimers about mobile carrier coverage, FICO Score eligibility, and Online Access Agreement terms. Followed by FICO trademark notice and document codes QSR-12022026-8027176.1.1 and LRC-0925.",
           "decision": "DEFAULT CONTENT",
-          "reason": "Author types footnote text as small paragraphs. Standard text content that does not require any block structure.",
+          "reason": "Author types footnote text as small paragraphs. Standard text content that does not require any block structure. Small text styling is a CSS concern.",
           "blockName": null
         }
       ]
@@ -155,45 +216,43 @@
   ],
   "blockStructures": {
     "hero": {
-      "description": "Block with background image and overlaid text content. Structure: first row has picture element for background, then heading/paragraph content as subsequent elements.",
-      "structure": "Row 1: picture (background image) | Row 2: h2 heading, paragraph text",
+      "description": "Block with background image and overlaid text content.",
+      "structure": "Row 1: picture (background image) | followed by heading and paragraph content",
       "note": "Existing hero block in project. Used for full-width marquee with background image and centered text."
     },
-    "cards (icon)": {
-      "description": "Grid of card items. Each row in block table has 2 columns: icon image in col 1, text content (heading + description + optional link) in col 2. Style variant 'icon' applies small icon sizing (64px).",
-      "structure": "Each row: Column 1 = icon image | Column 2 = heading + paragraph + optional link",
-      "note": "Existing Cards variant. Block table header: 'Cards (icon)'. Used in Section 2 (payment options) and Section 5 (customer support)."
+    "accordion-faq": {
+      "description": "Expandable FAQ/accordion items. Each row represents one expandable pair.",
+      "structure": "Each row: Column 1 = title/question text | Column 2 = answer/content text (supports rich content: paragraphs, lists, links)",
+      "note": "Existing accordion-faq block. Used in Section 2 (loan variables tabs converted), Section 5 (vehicle evaluation tabs converted), and Section 6 (actual FAQ)."
     },
     "columns (promo)": {
-      "description": "Side-by-side layout with promotional content. Two columns with image on one side and text content on other. Style variant 'promo' adds promotional styling.",
-      "structure": "Row 1: Column 1 = image | Column 2 = heading + paragraph + CTA link",
-      "note": "Existing Columns variant. Block table header: 'Columns (promo)'. Used in Section 3 (Autopay promotional banner)."
+      "description": "Side-by-side layout with promotional content. Two columns: image and text with CTA.",
+      "structure": "Row 1: Column 1 = image | Column 2 = heading + paragraph + bullet list + CTA link",
+      "note": "Existing Columns variant. Block table header: 'Columns (promo)'. Used in Section 3 (Credit Close-Up promo)."
     },
-    "accordion-faq": {
-      "description": "Expandable FAQ items. Each row in block table represents one Q&A pair: question text in col 1, answer text in col 2.",
-      "structure": "Each row: Column 1 = question text | Column 2 = answer text (can include rich content: paragraphs, lists, links)",
-      "note": "Existing accordion-faq block in project. Used in Section 4 (Related questions)."
+    "cards": {
+      "description": "Grid of card items with images and text. Base variant (no style suffix).",
+      "structure": "Each row: Column 1 = image | Column 2 = title + description paragraph",
+      "note": "Existing Cards block (base variant). Used in Section 4 (Before you buy - Plan, Research, Budget cards with large images)."
+    },
+    "cards (icon)": {
+      "description": "Grid of card items with small icons. Style variant 'icon' applies small icon sizing.",
+      "structure": "Each row: Column 1 = small icon image (64px) | Column 2 = heading + description paragraph + optional link",
+      "note": "Existing Cards variant. Block table header: 'Cards (icon)'. Used in Section 7 (Additional resources with small icons)."
     }
   },
   "sectionStylingValidation": {
     "section1": {
       "block": "hero",
-      "background": "Full-width photo of woman on phone - this is a hero-specific background image, not section styling",
-      "layout": "Edge-to-edge, no visible section padding - content overlays on image",
+      "background": "Full-width photo of truck at dealership - this is a hero-specific background image, not section styling",
+      "layout": "Edge-to-edge, no visible section padding - text overlays on image",
       "decision": "SKIP section-metadata",
       "reason": "Background is the hero block's own design (full-width photo with text overlay). Hero blocks typically have intrinsic backgrounds."
-    },
-    "section3": {
-      "block": "columns (promo)",
-      "background": "Solid gold/yellow accent color (#fdb714) with visible section padding",
-      "layout": "Content centered with visible padding around the columns block",
-      "decision": "KEEP section-metadata style='gold'",
-      "reason": "Section provides container styling (gold background) for the columns block. The gold color is section-level, not block-intrinsic."
     }
   },
   "metadata": {
-    "title": "How to make car payments and pay your Wells Fargo auto loan | Wells Fargo",
-    "description": "Wells Fargo makes paying your auto loan easy from automatic payments to paying online, over the phone, or in person. Pay your way with Wells Fargo.",
-    "keywords": "pay auto loan, pay car loan, how to make car payments, how do you make a car payment, how to pay my car payment"
+    "title": "A guide to new and used car loans | Wells Fargo",
+    "description": "Financing a new or used car can be overwhelming. Understanding the common variables of auto loans makes the process easier.",
+    "keywords": "used car financing, used car auto loan, used auto loan, financing a car, new car loans, new car auto loan, car loan for new car"
   }
 }

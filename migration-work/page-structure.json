@@ -1,65 +1,103 @@
 {
-  "url": "https://www.wellsfargo.com/auto-loans/make-payments/",
-  "title": "How to make car payments and pay your Wells Fargo auto loan | Wells Fargo",
-  "documentPath": "/auto-loans/make-payments/index",
+  "url": "https://www.wellsfargo.com/auto-loans/vehicle-financing-101/",
+  "title": "A guide to new and used car loans | Wells Fargo",
+  "documentPath": "/auto-loans/vehicle-financing-101/index",
   "sections": [
     {
       "sectionNumber": 1,
       "name": "Hero Marquee",
-      "background": "image-based (photo of woman on phone with yellow/gold tones)",
+      "background": "full-width image of truck at dealership with dark text overlay",
       "style": "dark text on image background, centered text overlay",
-      "overview": "Full-width marquee image with heading and subtext about payment options",
+      "overview": "Full-width marquee image with heading and subtext about asking dealer for Wells Fargo auto loans",
       "sequences": [
         {
           "sequenceNumber": 1,
-          "description": "Full-width marquee image showing woman on phone, with centered heading 'Choose your way to pay' and subtext 'Make individual auto loan payments or set it and forget it with automatic payments.'"
+          "description": "Full-width marquee image showing truck at a dealership, with centered heading 'Ask your dealer about Wells Fargo auto loans' and subtext 'Our nationwide network of nearly 11,000 dealerships is ready to help.'"
         }
       ]
     },
     {
       "sectionNumber": 2,
-      "name": "Auto Loan Payment Options (Tabs)",
+      "name": "Auto loans: what to know (Tabs)",
       "background": "white",
       "style": "light, centered section title with decorative line, tabbed content below with icons",
-      "overview": "Section heading followed by a tabbed interface showing payment methods (Online, Phone, Mail)",
+      "overview": "Section heading and introductory paragraph followed by a tabbed interface showing auto loan variables",
       "sequences": [
         {
           "sequenceNumber": 1,
-          "description": "Centered section heading 'Auto loan payment options' with decorative line above"
+          "description": "Centered section heading 'Auto loans: what to know' with decorative line above, followed by paragraph 'Financing a car can be overwhelming. Understanding the common variables of auto loans makes the process easier.'"
         },
         {
           "sequenceNumber": 2,
-          "description": "Tabbed content interface with 3 tabs (Online, Phone, Mail), each with a distinctive icon. Online tab has description about enrolling in online banking and 'Get started' CTA. Phone tab shows automated payment system info with number 1-800-289-8004. Mail tab shows mailing address for checks/money orders to Wells Fargo Auto PO Box."
+          "description": "Tabbed content interface with 4 tabs (Interest rate, Term length, Total amount financed, Monthly payment amount), each with a distinctive icon. Each tab reveals a short explanatory paragraph about that auto loan variable."
         }
       ]
     },
     {
       "sectionNumber": 3,
-      "name": "Autopay Promo",
-      "background": "gold/yellow (#fdb714)",
-      "style": "accent background, large image on left, heading and text with CTA on right",
-      "overview": "Full-width promotional banner for Autopay feature with image and text side by side",
+      "name": "Credit Close-Up Promo",
+      "background": "white",
+      "style": "light, centered section title, then large promo with image on left and text on right",
+      "overview": "Section heading followed by a large promotional block for Credit Close-Up credit score tracking",
       "sequences": [
         {
           "sequenceNumber": 1,
-          "description": "Large promotional banner with full-width gold background. Image of woman on left side, heading 'Autopay lets you focus on what matters' on right, descriptive paragraph about Autopay debiting monthly from checking/savings account, and a 'Sign on' CTA button"
+          "description": "Centered section heading 'Increase your likelihood of credit approval' with decorative line above"
+        },
+        {
+          "sequenceNumber": 2,
+          "description": "Large promotional block with credit score gauge image (showing 808) on the left side, and on the right: heading 'Track your credit score with Credit Close-Up', descriptive paragraph, bullet list of 3 benefits (understand score changes, make improvement plan, set alerts), simulated screen disclaimer, and a 'Let's go' CTA button"
         }
       ]
     },
     {
       "sectionNumber": 4,
-      "name": "Related Questions (FAQ)",
+      "name": "Before you buy",
       "background": "white",
-      "style": "light, centered section title with decorative line, expandable FAQ items below, centered CTA button at bottom",
+      "style": "light, centered section title with decorative line, 3-column card grid below",
+      "overview": "Section heading followed by 3 cards with images and descriptions for car buying preparation",
+      "sequences": [
+        {
+          "sequenceNumber": 1,
+          "description": "Centered section heading 'Before you buy' with decorative line above"
+        },
+        {
+          "sequenceNumber": 2,
+          "description": "Grid of 3 cards, each with a large top image (car photos), bold title (Plan, Research, Budget), and descriptive paragraph text. Research card includes links to Kelley Blue Book and Edmunds."
+        }
+      ]
+    },
+    {
+      "sectionNumber": 5,
+      "name": "How to evaluate new and used vehicles (Tabs)",
+      "background": "white",
+      "style": "light, centered section title with decorative line, tabbed content below with icons",
+      "overview": "Section heading followed by a tabbed interface showing evaluation steps",
+      "sequences": [
+        {
+          "sequenceNumber": 1,
+          "description": "Centered section heading 'How to evaluate new and used vehicles' with decorative line above"
+        },
+        {
+          "sequenceNumber": 2,
+          "description": "Tabbed content interface with 4 tabs (Find a vehicle you love, Inspect and test drive, Explore incentives, Ask about warranties), each with a distinctive icon. Each tab reveals a paragraph with advice for that evaluation step."
+        }
+      ]
+    },
+    {
+      "sectionNumber": 6,
+      "name": "Answers to auto financing questions (FAQ)",
+      "background": "white",
+      "style": "light, centered section title with decorative line, expandable FAQ items, centered CTA button at bottom",
       "overview": "FAQ accordion section with 4 expandable questions and a link to review all FAQs",
       "sequences": [
         {
           "sequenceNumber": 1,
-          "description": "Centered section heading 'Related questions' with decorative line above"
+          "description": "Centered section heading 'Answers to auto financing questions' with decorative line above"
         },
         {
           "sequenceNumber": 2,
-          "description": "Four expandable question-and-answer pairs (accordion style): 'Can I make my car payment in advance?', 'How do I set up, change, or cancel automatic loan payments?', 'How do I change my payment due date?', 'Where can I find my payoff amount for my auto loan?'"
+          "description": "Four expandable question-and-answer pairs (accordion style): 'How much experience does Wells Fargo have with auto financing?', 'How do I apply for a Wells Fargo auto loan?', 'What are aftermarket products?', 'What is Guaranteed Asset Protection (GAP)?'"
         },
         {
           "sequenceNumber": 3,
@@ -68,32 +106,32 @@
       ]
     },
     {
-      "sectionNumber": 5,
-      "name": "Customer Support",
-      "background": "white with cards having gold gradient backgrounds",
+      "sectionNumber": 7,
+      "name": "Additional resources",
+      "background": "white with cards having gold/yellow gradient backgrounds",
       "style": "light, centered section title with decorative line, icon-based cards below in a 3-column grid",
-      "overview": "Section heading followed by grid of 3 support resource cards with icons",
+      "overview": "Section heading followed by grid of 3 resource cards with icons on gradient backgrounds",
       "sequences": [
         {
           "sequenceNumber": 1,
-          "description": "Centered section heading 'Customer support' with decorative line above"
+          "description": "Centered section heading 'Additional resources' with decorative line above"
         },
         {
           "sequenceNumber": 2,
-          "description": "Grid of 3 items, each with a small icon (64x64) on gold gradient background, heading, description text, and a link. Items: 'Help with auto loan payments' (chat icon, 'Learn more' link to /auto-loans/assist/), 'Auto financing' (car icon, 'Let's go' link to /auto-loans/vehicle-financing-101/), 'Call us' (phone icon, phone number 1-800-289-8004 with business hours Mon-Sat)"
+          "description": "Grid of 3 items, each with a small icon (64x64) on gold gradient background, heading, description text, and a CTA link. Items: 'Explore payment options' (cash icon, 'Let's go' link to /auto-loans/make-payments/), 'LifeSync' (goal-setting icon, 'Get started' link to sites.wf.com/lifesync/), 'Call us' (phone icon, number 1-800-289-8004 with business hours Mon-Sat)"
         }
       ]
     },
     {
-      "sectionNumber": 6,
+      "sectionNumber": 8,
       "name": "Footnotes and Disclaimers",
-      "background": "light grey",
+      "background": "white",
       "style": "small text, numbered footnotes",
-      "overview": "Legal footnotes, terms references, and document codes",
+      "overview": "Legal footnotes, FICO trademark notice, and document codes",
       "sequences": [
         {
           "sequenceNumber": 1,
-          "description": "Numbered footnotes: 1) Mobile carrier coverage and rates disclaimer, 2) Terms and conditions for Online Access Agreement. Followed by document codes QSR-12062026-8049532.1.1 and LRC-0925"
+          "description": "Numbered footnotes: 1) Sign-up/mobile carrier disclaimer, 2) FICO Score eligibility/disclaimer for Wells Fargo account holders, 3) Terms for Online Access Agreement. Followed by Online Statements info, FICO trademark notice, and document codes QSR-12022026-8027176.1.1 and LRC-0925"
         }
       ]
     }
@@ -103,9 +141,7 @@
     "Footer (auto-populated by AEM EDS)",
     "Cookie consent banner",
     "Feedback survey widget",
-    "Chat widget (Nuance)",
-    "Language preference popup",
-    "Lightbox container"
+    "External site modals (Carfax, KBB, Edmunds leaving notices)"
   ],
   "blockInventory": {
     "localBlocks": [

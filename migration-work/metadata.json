@@ -1,42 +1,42 @@
 {
-  "url": "https://www.wellsfargo.com/auto-loans/make-payments/",
-  "timestamp": "2026-05-25T05:04:34.893Z",
+  "url": "https://www.wellsfargo.com/auto-loans/vehicle-financing-101/",
+  "timestamp": "2026-05-25T05:13:06.394Z",
   "paths": {
-    "documentPath": "/auto-loans/make-payments/index",
-    "htmlFilePath": "/auto-loans/make-payments/index.plain.html",
-    "mdFilePath": "/auto-loans/make-payments/index.md",
-    "dirPath": "/auto-loans/make-payments",
+    "documentPath": "/auto-loans/vehicle-financing-101/index",
+    "htmlFilePath": "/auto-loans/vehicle-financing-101/index.plain.html",
+    "mdFilePath": "/auto-loans/vehicle-financing-101/index.md",
+    "dirPath": "/auto-loans/vehicle-financing-101",
     "filename": "index"
   },
   "screenshot": "migration-work/screenshot.png",
   "html": {
     "filePath": "migration-work/cleaned.html",
-    "size": 83618
+    "size": 139240
   },
   "metadata": {
-    "title": "How to make car payments and pay your Wells Fargo auto loan | Wells Fargo",
+    "title": "A guide to new and used car loans | Wells Fargo",
     "viewport": "width=device-width, initial-scale=1.0",
-    "description": "Wells Fargo makes paying your auto loan easy from automatic payments to paying online, over the phone, or in person. Pay your way with Wells Fargo.",
-    "keywords": "pay auto loan, pay car loan, how to make car payments, how do you make a car payment, how to pay my car payment",
+    "description": "Financing a new or used car can be overwhelming. Understanding the common variables of auto loans makes the process easier.",
+    "keywords": "used car financing, used car auto loan, used auto loan, financing a car, new car loans, new  car auto loan, car loan for new car",
     "robots": "index, follow",
-    "canonical": "https://www.wellsfargo.com/auto-loans/make-payments/",
+    "canonical": "https://www.wellsfargo.com/auto-loans/vehicle-financing-101/",
     "jsonLd": {
       "@type": [
         "AboutPage"
       ],
-      "@id": "https://www.wellsfargo.com/auto-loans/make-payments/#AboutPage",
+      "@id": "https://www.wellsfargo.com/auto-loans/vehicle-financing-101/#AboutPage",
       "@context": {
         "@vocab": "http://schema.org/",
         "kg": "http://g.co/kg"
       },
       "url": [
-        "https://www.wellsfargo.com/auto-loans/make-payments/",
-        "https://www.wellsfargo.com/auto-loans/make-payments/"
+        "https://www.wellsfargo.com/auto-loans/vehicle-financing-101/",
+        "https://www.wellsfargo.com/auto-loans/vehicle-financing-101/"
       ],
       "about": [
         {
           "@type": "FinancialProduct",
-          "@id": "https://www.wellsfargo.com/auto-loans/make-payments/#AboutPage_about_FinancialProduct",
+          "@id": "https://www.wellsfargo.com/auto-loans/vehicle-financing-101/#AboutPage_about_FinancialProduct",
           "url": "https://www.wellsfargo.com/auto-loans/",
           "name": "Auto loans"
         }
@@ -52,113 +52,127 @@
         },
         {
           "@type": "WebPage",
-          "@id": "https://www.wellsfargo.com/auto-loans/make-payments/#Highlight20251015194528801-17157_0_AboutPage_mentions_WebPage",
-          "url": "https://www.wellsfargo.com/auto-loans/assist/",
-          "description": "If you're running behind or having trouble with your monthly car payments, we may have options that can help get you back on track.\n\n\t\t  \n\n\t",
-          "name": "Help with auto loan payments"
+          "@id": "https://www.wellsfargo.com/auto-loans/vehicle-financing-101/#Highlight20251015194528801-17157_0_AboutPage_mentions_WebPage",
+          "url": "https://www.wellsfargo.com/auto-loans/make-payments/",
+          "description": "Learn about Autopay\n and other ways to make auto loan payments.\n\n\t\t  \n\n\t",
+          "name": "Explore payment options"
         },
         {
           "@type": "WebPage",
-          "@id": "https://www.wellsfargo.com/auto-loans/make-payments/#Highlight20251015194528801-17157_1_AboutPage_mentions_WebPage",
-          "url": "https://www.wellsfargo.com/auto-loans/vehicle-financing-101/",
-          "description": "Learn about the nuts and bolts of auto loans before your next vehicle search.\n\n\t\t  \n\n\t",
-          "name": "Auto financing"
+          "@id": "https://www.wellsfargo.com/auto-loans/vehicle-financing-101/#Highlight20251015194528801-17157_1_AboutPage_mentions_WebPage",
+          "url": "https://sites.wf.com/lifesync/",
+          "description": "Set and track financial goals based on what matters to you.\n\n\t\t  \n\n\t",
+          "name": "LifeSync®"
         }
       ],
-      "description": "Wells Fargo makes paying your auto loan easy from automatic payments to paying online, over the phone, or in person. Pay your way with Wells Fargo.",
-      "keywords": "pay auto loan, pay car loan, how to make car payments, how do you make a car payment, how to pay my car payment",
+      "description": "Financing a new or used car can be overwhelming. Understanding the common variables of auto loans makes the process easier.",
+      "keywords": "used car financing, used car auto loan, used auto loan, financing a car, new car loans, new  car auto loan, car loan for new car",
       "inLanguage": "en",
-      "name": "How to make car payments and pay your Wells Fargo auto loan | Wells Fargo",
       "mainEntity": [
         {
           "@type": "FAQPage",
-          "@id": "https://www.wellsfargo.com/auto-loans/make-payments/#AboutPage_mainEntity_FAQPage",
+          "@id": "https://www.wellsfargo.com/auto-loans/vehicle-financing-101/#AboutPage_mainEntity_FAQPage",
+          "name": "Answers to auto financing questions",
           "mainEntity": [
             {
               "@type": "Question",
-              "@id": "https://www.wellsfargo.com/auto-loans/make-payments/#Highlight20251015194248163-32952_0_AboutPage_mainEntity_FAQPage_mainEntity_Question",
-              "name": "Can I make my car payment in advance?",
+              "@id": "https://www.wellsfargo.com/auto-loans/vehicle-financing-101/#Highlight20251015194248163-32952_0_AboutPage_mainEntity_FAQPage_mainEntity_Question",
+              "name": "How much experience does Wells Fargo have with auto financing?",
               "acceptedAnswer": [
                 {
                   "@type": "Answer",
-                  "@id": "https://www.wellsfargo.com/auto-loans/make-payments/#Highlight20251015194248163-32952_0_AboutPage_mainEntity_FAQPage_mainEntity_Question_acceptedAnswer_Answer",
-                  "text": "You can pay your account up to 3 months in advance. When you pay more than the total amount due, on or before the due date, the additional amount will pay down your principal balance and will also be applied to your next payment due. After your loan is paid ahead 3 months, any additional payments will be applied to the principal balance. "
+                  "@id": "https://www.wellsfargo.com/auto-loans/vehicle-financing-101/#Highlight20251015194248163-32952_0_AboutPage_mainEntity_FAQPage_mainEntity_Question_acceptedAnswer_Answer",
+                  "text": "Wells Fargo has more than 50 years of experience in new and used car financing. "
                 }
               ]
             },
             {
               "@type": "Question",
-              "@id": "https://www.wellsfargo.com/auto-loans/make-payments/#Highlight20251015194248163-32952_1_AboutPage_mainEntity_FAQPage_mainEntity_Question",
-              "name": "How do I set up, change, or cancel automatic loan payments?",
+              "@id": "https://www.wellsfargo.com/auto-loans/vehicle-financing-101/#Highlight20251015194248163-32952_1_AboutPage_mainEntity_FAQPage_mainEntity_Question",
+              "name": "How do I apply for a Wells Fargo auto loan?",
               "acceptedAnswer": [
                 {
                   "@type": "Answer",
-                  "@id": "https://www.wellsfargo.com/auto-loans/make-payments/#Highlight20251015194248163-32952_1_AboutPage_mainEntity_FAQPage_mainEntity_Question_acceptedAnswer_Answer",
-                  "text": "To set up automatic payments, sign on, select your auto loan from Account Summary, and then select Set up Autopay.Opens a modal dialog for footnote 2 You can also call us at 1-800-289-8004 or download the automatic loan payments authorization (PDF), complete the form, and return by mail or fax. If you'd like to change your automatic payment, you'll need to cancel the recurring schedule and then set up Autopay again. To cancel your automatic payments, sign on, select your auto loan from Account Summary, and then select Manage Autopay. Please allow at least 3 business days before the automatic payment is scheduled to withdraw."
+                  "@id": "https://www.wellsfargo.com/auto-loans/vehicle-financing-101/#Highlight20251015194248163-32952_1_AboutPage_mainEntity_FAQPage_mainEntity_Question_acceptedAnswer_Answer",
+                  "text": "Wells Fargo auto loans are only available through our nationwide network of nearly 11,000 dealerships. Be sure to ask your dealership if Wells Fargo auto financing is available. If your loan is funded by Wells Fargo Auto, we'll service your account. "
                 }
               ]
             },
             {
               "@type": "Question",
-              "@id": "https://www.wellsfargo.com/auto-loans/make-payments/#Highlight20251015194248163-32952_2_AboutPage_mainEntity_FAQPage_mainEntity_Question",
-              "name": "How do I change my payment due date?",
+              "@id": "https://www.wellsfargo.com/auto-loans/vehicle-financing-101/#Highlight20251015194248163-32952_2_AboutPage_mainEntity_FAQPage_mainEntity_Question",
+              "name": "What are aftermarket products?",
               "acceptedAnswer": [
                 {
                   "@type": "Answer",
-                  "@id": "https://www.wellsfargo.com/auto-loans/make-payments/#Highlight20251015194248163-32952_2_AboutPage_mainEntity_FAQPage_mainEntity_Question_acceptedAnswer_Answer",
-                  "text": "Before you apply for a due date change, you'll need to meet the following criteria:  You've made the first payment on your auto loan. Your requested payment due date shouldn't be more than 15 days from your existing payment due date. For example, if your existing due date is the 5th of the month, you can change it to the 20th of the month, or any day in between. This is your first payment due date change. (You're allowed one payment due date change for the entire term of the loan.) Your account is current or no more than 10 days past due.  If you change your due date, your loan maturity date will be adjusted. Your monthly payment amount will remain the same. To request a due date change, please call us at 1-800-289-8004."
+                  "@id": "https://www.wellsfargo.com/auto-loans/vehicle-financing-101/#Highlight20251015194248163-32952_2_AboutPage_mainEntity_FAQPage_mainEntity_Question_acceptedAnswer_Answer",
+                  "text": "Aftermarket products are optional products or services that may be purchased from the dealership along with your vehicle. Some examples include:  Guaranteed Asset Protection (GAP) covers all or a portion of the loan balance after the payment of a total loss insurance claim. Service contracts (also referred to as extended warranties) provide coverage in the event that a major mechanical component of the vehicle, such as an engine, transmission, heating/cooling system, seal, gasket, and/or fuel system, needs repair. The coverage typically lasts for a specific period of time or vehicle mileage. Anti-theft protection includes devices or services, such as tracking, that make the vehicle (or the component of the vehicle) more difficult to steal or easier to recover if it’s stolen. It can also provide a financial benefit after a theft. Surface protection for the interior or exterior of the vehicle. Maintenance packages are prepaid plans that typically cover scheduled maintenance, such as oil changes, on the vehicle.  "
                 }
               ]
             },
             {
               "@type": "Question",
-              "@id": "https://www.wellsfargo.com/auto-loans/make-payments/#Highlight20251015194248163-32952_3_AboutPage_mainEntity_FAQPage_mainEntity_Question",
-              "name": "Where can I find my payoff amount for my auto loan?",
+              "@id": "https://www.wellsfargo.com/auto-loans/vehicle-financing-101/#Highlight20251015194248163-32952_3_AboutPage_mainEntity_FAQPage_mainEntity_Question",
+              "name": "What is Guaranteed Asset Protection (GAP)?",
               "acceptedAnswer": [
                 {
                   "@type": "Answer",
-                  "@id": "https://www.wellsfargo.com/auto-loans/make-payments/#Highlight20251015194248163-32952_3_AboutPage_mainEntity_FAQPage_mainEntity_Question_acceptedAnswer_Answer",
-                  "text": "Online Sign on, select your auto loan from Account Summary, and then Get payoff quote. Account statement  View your payoff amount and daily interest on your monthly account statement. Phone  Call us at 1-800-289-8004 to get an automated payoff quote or to speak to a representative. If you choose to pay off your account after the date provided, please call us for an updated quote."
+                  "@id": "https://www.wellsfargo.com/auto-loans/vehicle-financing-101/#Highlight20251015194248163-32952_3_AboutPage_mainEntity_FAQPage_mainEntity_Question_acceptedAnswer_Answer",
+                  "text": "GAP is an optional product that covers any \"gap\" between the amount owed on the loan and the vehicle's value in the event of a total loss. Some exclusions apply. It's important to review the coverage details to understand the limitations of GAP coverage. Example  Your vehicle was in an accident and deemed a total loss. Your insurance company determines that the fair market value of the vehicle at the time of the loss is $10,000, so that's what they paid out. The remaining loan balance on the vehicle is $13,000. After insurance, you still owe $3,000. If you have GAP, the remaining $3,000 may be covered. GAP may not cover late payments, late fees, or deferred payments. "
                 }
               ]
             }
           ]
         }
-      ]
+      ],
+      "name": "A guide to new and used car loans | Wells Fargo"
     }
   },
   "images": {
-    "count": 24,
+    "count": 37,
     "mapping": {
       "https://www17.wellsfargomedia.com/assets/images/sprite/responsive-sprite-v15.png": "./images/0deed819e70e3a69893a099a7dccbcb5.png",
       "https://www17.wellsfargomedia.com/assets/images/rwd/wf_logo_220x23.png": "./images/fb2ab0c159f5e0df48b95fb95ad466d8.png",
-      "https://www.wellsfargo.com/assets/images/global/s.gif?log=1&cb=1779685463862&event=PageLoad&pid=tcm%3A702-341465-64&ptid=tcm%3A702-236593-128&pageUrl=https%3A%2F%2Fwww.wellsfargo.com%2Fauto-loans%2Fmake-payments%2F&clist=84-123521-16~91-223645-32|84-216681-16~91-223645-32|702-341464-16~91-223645-32|84-329638-16~91-223645-32|84-245958-16~91-223647-32|182-246149-16~91-223667-32|84-241194-16~91-236597-32|84-245989-16~91-226306-32|182-342677-16~91-244424-32|84-342683-16~91-223650-32|182-342682-16~91-246267-32|182-342949-16~91-223669-32|84-342944-16~91-223650-32|182-342945-16~91-244416-32|182-342946-16~91-244416-32|182-342947-16~91-244416-32|182-342948-16~91-244416-32|84-342016-16~91-223644-32|84-342950-16~91-223650-32|84-342952-16~91-228644-32|84-246011-16~91-223668-32|84-246025-16~91-223675-32": "./images/cbe570c6b84376079b7e037179552c4c.png",
+      "https://www.wellsfargo.com/assets/images/global/s.gif?log=1&cb=1779685973406&event=PageLoad&pid=tcm%3A702-341462-64&ptid=tcm%3A702-236593-128&pageUrl=https%3A%2F%2Fwww.wellsfargo.com%2Fauto-loans%2Fvehicle-financing-101%2F&clist=84-224686-16~91-2049-32|84-170735-16~91-223645-32|84-123523-16~91-223645-32|84-216681-16~91-223645-32|84-17744-16~91-223645-32|84-71697-16~91-223645-32|84-342030-16~91-223645-32|84-329638-16~91-223645-32|84-245958-16~91-223647-32|182-246149-16~91-223667-32|84-241194-16~91-236597-32|84-245989-16~91-226306-32|182-342031-16~91-244424-32|84-342032-16~91-223650-32|182-342023-16~91-246267-32|84-342033-16~91-223650-32|182-342421-16~91-223669-32|84-342034-16~91-223650-32|84-342035-16~91-223650-32|182-342038-16~91-246267-32|84-342036-16~91-223650-32|182-342039-16~91-244416-32|182-342040-16~91-244416-32|182-342041-16~91-244416-32|182-342042-16~91-244416-32|84-342043-16~91-223650-32|84-342037-16~91-223650-32|84-342612-16~91-228644-32|84-246011-16~91-223668-32|84-246025-16~91-223675-32": "./images/f7120c628a489bd9c73aeccc3ef11195.png",
+      "https://www17.wellsfargomedia.com/assets/images/contextual/responsive/lpromo/auto-loans/largepromo_credit_close_up-1600x700.png": "./images/6e5d30b2d6f80e371c801d587f58bce4.png",
       "https://www17.wellsfargomedia.com/assets/images/homepage/card_background-gradient-375x2172.png": "./images/1db0f518b178c55735541af80859afdc.png",
-      "https://www17.wellsfargomedia.com/assets/images/rwd/icons/auto-loans/online-active_48x48.png": "./images/0db8522d162eb7c5636ed68846238a49.png",
-      "https://www17.wellsfargomedia.com/assets/images/contextual/responsive/lpromo/auto-loans/largepromo_autopay-1600x700.png": "./images/7ad3a26063708c59e504faadd6076a97.png",
-      "https://www17.wellsfargomedia.com/assets/images/rwd/icons/auto-loans/online-inactive_48x48.png": "./images/6f1c5bcac6c7bfa28fde6f6bc1eba015.png",
-      "https://www17.wellsfargomedia.com/assets/images/rwd/icons/auto-loans/phone-active_48x48.png": "./images/f73df2ee68febe190bf2aaec5b01d12e.png",
-      "https://www17.wellsfargomedia.com/assets/images/rwd/icons/auto-loans/phone-inactive_48x48.png": "./images/9e0ae5a556ecde3c09c63ee3971b54a5.png",
-      "https://www17.wellsfargomedia.com/assets/images/rwd/icons/auto-loans/mail-active_48x48.png": "./images/ae06e5b97c52539c94a3bcf9088059e6.png",
-      "https://www17.wellsfargomedia.com/assets/images/rwd/icons/auto-loans/mail-inactive_48x48.png": "./images/3af68d65bc8cb080f81fe217289edf31.png",
-      "https://www17.wellsfargomedia.com/assets/images/rwd/icons/auto-loans/ask-a-question_64x64.png": "./images/53a58d479769cae1bf1fa452760d7106.png",
-      "https://www17.wellsfargomedia.com/assets/images/rwd/icons/auto-loans/vehicle-car_64x64.png": "./images/004cc982b4f9c0a920c99a7b868ee5cf.png",
+      "https://www17.wellsfargomedia.com/assets/images/rwd/icons/auto-loans/interest_rate_active_48x48.png": "./images/ceb9014d55c8d5331325d30aab506e95.png",
+      "https://www17.wellsfargomedia.com/assets/images/rwd/icons/auto-loans/interest_rate_inactive_48x48.png": "./images/62df70351f10e6cff16fab749b9ffadd.png",
+      "https://www17.wellsfargomedia.com/assets/images/rwd/icons/auto-loans/term_length_active_48x48.png": "./images/16d365c53a855c1c42dcedaa2b1fd1ff.png",
+      "https://www17.wellsfargomedia.com/assets/images/rwd/icons/auto-loans/term_length_inactive_48x48.png": "./images/dea728a80b2f6f87e9fd1f8f1bd06a0b.png",
+      "https://www17.wellsfargomedia.com/assets/images/rwd/icons/auto-loans/total_amount_financed_active_48x48.png": "./images/992395375fd52644eb43bb7a2157334f.png",
+      "https://www17.wellsfargomedia.com/assets/images/rwd/icons/auto-loans/monthly_payment_amount_active_48x48.png": "./images/9035297f49293ce48a47607042f0e959.png",
+      "https://www17.wellsfargomedia.com/assets/images/rwd/icons/auto-loans/monthly_payment_amount_inactive_48x48.png": "./images/0b8c7fc773f73d4cfcfed57b5eb82c78.png",
+      "https://www17.wellsfargomedia.com/assets/images/rwd/icons/auto-loans/explore_incentives_active_48x48.png": "./images/d53148c4b6a7b63caddb622e9de245e3.png",
+      "https://www17.wellsfargomedia.com/assets/images/rwd/icons/auto-loans/explore_incentives_inactive_48x48.png": "./images/463a858cface5edff00985104f096c1f.png",
+      "https://www17.wellsfargomedia.com/assets/images/rwd/auto-loans/plan_promo_card_image_613x353.png": "./images/cc35ec701aed03323a78721c39bb011a.jpg",
+      "https://www17.wellsfargomedia.com/assets/images/rwd/icons/auto-loans/find_a_vehicle_you_love_active_48x48.png": "./images/8b36e3be0271ca6c5f06925bd9052a27.png",
       "https://www17.wellsfargomedia.com/assets/images/rwd/icons/auto-loans/UI-customer-service_64x64.png": "./images/59426cb7f4799fc37242e6ce16b70613.png",
-      "https://www17.wellsfargomedia.com/assets/images/contextual/responsive/marquee-ctr/auto-loans/auto-loan-payments-marquee-center_1700x600.png?impolicy=SmCDesktopXL": "./images/1be998cf95b7365bafed4373579911ac.png",
-      "https://dpm.demdex.net/ibs:dpid=411&dpuuid=ahPYWQAAAEoO4ANv": "./images/2aae569bd2bfa079bed7fb1c2555d489.png",
+      "https://www17.wellsfargomedia.com/assets/images/rwd/icons/auto-loans/find_a_vehicle_you_love_inactive_48x48.png": "./images/b1b4b720ff61f868fe0b1015e29dc5f9.png",
+      "https://www17.wellsfargomedia.com/assets/images/rwd/icons/auto-loans/inspect_and_test_drive_active_48x48.png": "./images/5f4da2576e8a3c72a51488e6bb58b2f1.png",
+      "https://www17.wellsfargomedia.com/assets/images/rwd/icons/auto-loans/inspect_and_test_drive_inactive_48x48.png": "./images/163f1e8ddba46b8671c220a91d8cf961.png",
+      "https://www17.wellsfargomedia.com/assets/images/rwd/icons/auto-loans/ask_about_warranties_active_48x48.png": "./images/9c7c0beb4144a2fac07307a0e74b5ffe.png",
+      "https://www17.wellsfargomedia.com/assets/images/rwd/icons/auto-loans/ask_about_warranties_inactive_48x48.png": "./images/55c85e82d33f68f72194a62f6ff7add6.png",
+      "https://www17.wellsfargomedia.com/assets/images/rwd/icons/auto-loans/total_amount_financed_inactive_48x48.png": "./images/9fe8fabc266a845bbca737bfb8cd5129.png",
+      "https://www17.wellsfargomedia.com/assets/images/rwd/icons/auto-loans/cash-in-hand_64x64.png": "./images/6aff1eee806d539f6ae160bc1b0e53e4.png",
+      "https://www17.wellsfargomedia.com/assets/images/rwd/icons/auto-loans/LifeSync_64x64.png": "./images/8938f24cf298bb9306c92f4dc714ce9a.png",
+      "https://www17.wellsfargomedia.com/assets/images/rwd/auto-loans/research_promo_card_image_613x353.png": "./images/fa4cda5dbb9280b7a3a6d570d991086c.png",
+      "https://www17.wellsfargomedia.com/assets/images/contextual/responsive/marquee-ctr/auto-loans/auto_loan_financing_marquee_center_1700x600.png?impolicy=SmCDesktopXL": "./images/26809fd754538667ee0b3826e270e68b.png",
       "https://static.wellsfargo.com/assets/js/pcmp/prod/wellsfargo.com/consent/ec31ce42-18f4-4288-9419-e97e758f2d39/01988685-59ac-7e3f-8651-a92ac4822fe9/logos/1b74778f-ed65-4e19-a2c4-8004202c5cdc/01987b71-446e-7a64-aa67-5d9e56da6410/54c9288e-ddd9-4d22-88f3-c9edcb7158ec/WF-Logo-188x50-noleftlarger-x1.png": "./images/0b259dc6dc3820e20101ba1648c5000f.png",
-      "https://dpm.demdex.net/ibs:dpid=477&dpuuid=f3049b82f8f15c6f57bb8f1b77a25235dc244b85a5c61c62a3897d8eaa0a4c5bb0da87c991749652": "./images/1a58cc11add6856f6f98cba8b3a70fea.png",
-      "https://dpm.demdex.net/ibs:dpid=771&dpuuid=CAESEOOtJNuRBirb_KBrFwY-T5w&google_cver=1?gdpr=0&gdpr_consent=": "./images/7cd3e9555b986e81d4942f6cd640f99f.png",
-      "https://dpm.demdex.net/ibs:dpid=30646?dpuuid=y-6_oynzdE2pFIh2YaywR6RROO60HyPDwPh7w-~A": "./images/fa469efb35bdd37c22552ff6052fb62f.png",
       "https://static.wellsfargo.com/assets/js/pcmp/prod/wellsfargo.com/consent/ec31ce42-18f4-4288-9419-e97e758f2d39/01988685-59ac-7e3f-8651-a92ac4822fe9/logos/static/powered_by_logo.svg": "./images/b1a526c9ca8940cd5e50a4ed624bbd5a.png",
-      "https://s.amazon-adsystem.com/ecm3?ex=adobe.com&id=79906459083973740451870068971416120800": "./images/b87a055272ece6babe711d640ba1bb07.png",
+      "https://dpm.demdex.net/ibs:dpid=411&dpuuid=ahPaVwAAAK7A_QN2": "./images/8a5670532da818270eb99640e5b16628.png",
+      "https://dpm.demdex.net/ibs:dpid=771&dpuuid=CAESEGetBRbpttLLbjc67ugd2mI&google_cver=1?gdpr=0&gdpr_consent=": "./images/c97080b17918442b23029044a6dd89cc.png",
+      "https://dpm.demdex.net/ibs:dpid=30646?dpuuid=y-6OTnN.5E2pG6igtbE5npIUMMtMYCdMlp3iY-~A": "./images/4224f8297a9043d0d9280fe0aa84cd49.png",
+      "https://s.amazon-adsystem.com/ecm3?ex=adobe.com&id=31890074934478251633056547985844950856": "./images/5784758d8529c1566bc6f88d9f67786b.png",
+      "https://www17.wellsfargomedia.com/assets/images/rwd/auto-loans/budget_promo_card_image_613x353.png": "./images/0e95f0ca61b45605c547f76fe532e7c3.png",
+      "https://dpm.demdex.net/ibs:dpid=477&dpuuid=0428a7a49e5f38d9d0ec30fa0e735e1951b2f8ba3e81730922100f8c1d7b6b43b0da87c991749652": "./images/e03f2a682ad68785be6c2edea6f2a385.png",
       "https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_150x54dp.png": "./images/94494f3d0604a3e7c063d97a7eda345c.png",
-      "https://www.google.com/pagead/1p-user-list/984436569/?random=1779685465650&cv=11&fst=1779685200000&fmt=3&bg=ffffff&guid=ON&async=1&gtm=45be54f0h2v883158215za204zb9166611554&gcd=13l3l3l3l1l1&dma=0&tag_exp=102509682~102803279~102813109~102887800~102926062~103027016~103051953~103055465~103077950~103116026&ptag_exp=102509683~102803279~102813109~102887800~102926062~103021830~103027016~103051953~103055465~103077950&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.wellsfargo.com%2Fauto-loans%2Fmake-payments%2F&hn=www.googleadservices.com&frm=0&tiba=How%20to%20make%20car%20payments%20and%20pay%20your%20Wells%20Fargo%20auto%20loan%20%7C%20Wells%20Fargo&npa=0&pscdl=noapi&auid=1897636939.1779685466&uaa=x86&uab=64&uafvl=Not%253AA-Brand%3B99.0.0.0%7CHeadlessChrome%3B145.0.7632.6%7CChromium%3B145.0.7632.6&uamb=0&uam=&uap=Linux&uapv=&uaw=0&fledge=1&data=event%3Dgtag.config&is_vtc=1&cid=CAQS4gEABaugfczsy6deB48ucp9DvDNd89b9DYHK2wJWo8_XS8j6Yl4G-naS1O5mscXSQimakXMZME3rRkaH79I-Je9sYxhrZHY7RrdAeLRaSVi1621MO20-G8NYIbRGqJUojOT7tF45kyUDkAuj9YHi8kN4jcaAH2HYBxetwbqrF83f_Vrxc70dSqZwDuvnEdyBaehFa7axu4DFnNR_I7JGwYbE5A0cFouJhe9wA3iFchQZ8JF7ICxP9BF9is8MsQ0zlv0-Vz_zgD8-04JZf_WEz30xcKFG6eOe9cnxe6h17hkzUQUf&random=1840420714": "./images/1a818fb41f6ed558de84f2729cfba900.png"
+      "https://www.google.com/pagead/1p-user-list/984436569/?random=1779685975389&cv=11&fst=1779685200000&fmt=3&bg=ffffff&guid=ON&async=1&gtm=45be54f0h2v883158215za204zb9166611554&gcd=13l3l3l3l1l1&dma=0&tag_exp=102509682~102803279~102813109~102887800~102926062~103027016~103051953~103055465~103077950~103116026&ptag_exp=102509683~102803279~102813109~102887800~102926062~103021830~103027016~103051953~103055465~103077950&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.wellsfargo.com%2Fauto-loans%2Fvehicle-financing-101%2F&hn=www.googleadservices.com&frm=0&tiba=A%20guide%20to%20new%20and%20used%20car%20loans%20%7C%20Wells%20Fargo&npa=0&pscdl=noapi&auid=1465974331.1779685975&uaa=x86&uab=64&uafvl=Not%253AA-Brand%3B99.0.0.0%7CHeadlessChrome%3B145.0.7632.6%7CChromium%3B145.0.7632.6&uamb=0&uam=&uap=Linux&uapv=&uaw=0&fledge=1&data=event%3Dgtag.config&is_vtc=1&cid=CAQS4gEABaugfU5ytQBV66is2BPtY10AJP9gCLu5AHbPMogigJceIdCVyuukBBbsJaSoxcl2DU-Q0Cs8Pc-MjzSyyf0qdjooAMEAz4G9PY_YCN4Qch_ayd7135crv0bJHQnXIbQYGKvPedQzazMl3caKCMXikUnumSyiCoq9gFZNM0daJXGSCfMVCXLKZhTHyzFmd_usvcZGleo36HRe-bSRjP1yFD_cAPlJlynj4NyVWli-p6VOGtKQcaZ3tzMna1sEOSVYFTrOP9Obd7TYdNP8cZ4V9MfWZa8epbs3xtvlBF3XuVce&random=1978083505": "./images/fd2686a4f8357a95f6329cca6fa2a242.png"
     },
     "stats": {
-      "total": 39,
-      "converted": 15,
-      "skipped": 9,
+      "total": 52,
+      "converted": 17,
+      "skipped": 20,
       "failed": 13,
       "tooLarge": 0,
       "limitReached": 0
