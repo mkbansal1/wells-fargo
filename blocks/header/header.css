@@ -1,9 +1,10 @@
 /* header and nav layout */
 header .nav-wrapper {
-  background-color: var(--background-color);
+  background-color: var(--brand-red);
   width: 100%;
   z-index: 2;
   position: fixed;
+  box-shadow: 0 2px 8px rgb(0 0 0 / 20%);
 }
 
 header nav {
@@ -55,7 +56,11 @@ header nav p {
 }
 
 header nav a:any-link {
-  color: currentcolor;
+  color: #fff;
+}
+
+header nav {
+  color: #fff;
 }
 
 /* hamburger */
@@ -72,8 +77,8 @@ header nav .nav-hamburger button {
   border: 0;
   border-radius: 0;
   padding: 0;
-  background-color: var(--background-color);
-  color: inherit;
+  background-color: transparent;
+  color: #fff;
   overflow: initial;
   text-overflow: initial;
   white-space: initial;
@@ -142,15 +147,17 @@ header nav[aria-expanded='true'] .nav-hamburger-icon::after {
 /* brand */
 header .nav-brand {
   grid-area: brand;
-  flex-basis: 128px;
+  flex-basis: 160px;
   font-size: var(--heading-font-size-s);
   font-weight: 700;
   line-height: 1;
+  color: #fff;
 }
 
 header nav .nav-brand img {
-  width: 128px;
+  width: 160px;
   height: auto;
+  filter: brightness(0) invert(1);
 }
 
 /* sections */
@@ -175,6 +182,7 @@ header nav .nav-sections ul {
 
 header nav .nav-sections ul > li {
   font-weight: 500;
+  color: #fff;
 }
 
 header nav .nav-sections ul > li > ul {
@@ -269,4 +277,38 @@ header nav .nav-sections ul > li > ul > li {
 /* tools */
 header nav .nav-tools {
   grid-area: tools;
+  color: #fff;
+}
+
+/* Sign On button in nav tools */
+header nav .nav-tools a.button {
+  border: 2px solid #fff;
+  background-color: transparent;
+  color: #fff;
+  border-radius: 24px;
+  padding: 8px 20px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+header nav .nav-tools a.button:hover {
+  background-color: rgb(255 255 255 / 15%);
+  text-decoration: none;
+}
+
+/* Wells Fargo brand text fallback if no logo image */
+header .nav-brand > p > a {
+  display: flex;
+  align-items: center;
+  font-size: 0;
+  color: #fff;
+}
+
+header .nav-brand > p > a::before {
+  content: 'WELLS FARGO';
+  font-family: var(--heading-font-family);
+  font-size: 18px;
+  font-weight: 700;
+  color: #fff;
+  letter-spacing: 0.02em;
 }

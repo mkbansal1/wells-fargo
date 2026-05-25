@@ -65,29 +65,38 @@
 
 /* stylelint-disable no-descending-specificity */
 
-/* Icon variant - small gradient icons with feature text */
+/* ============================================================
+   Icon variant - Wells Fargo style feature cards with icons
+   ============================================================ */
 .cards.icon > ul {
   grid-template-columns: 1fr;
+  gap: 16px;
 }
 
 .cards.icon > ul > li {
   display: flex;
+  flex-direction: column;
   align-items: flex-start;
-  gap: 16px;
-  padding: 24px;
+  gap: 0;
+  padding: 28px 24px;
   box-shadow: none;
   border: none;
-  background: linear-gradient(135deg, #f9f7f5 0%, #fff 100%);
+  background: linear-gradient(160deg, #fdf9f6 0%, #fff 60%);
   border-radius: 12px;
+  border-bottom: 3px solid var(--brand-gold);
+  transition: box-shadow 0.2s, transform 0.2s;
 }
 
 .cards.icon > ul > li:hover {
-  box-shadow: 0 2px 12px rgb(0 0 0 / 8%);
+  box-shadow: 0 4px 20px rgb(0 0 0 / 10%);
+  transform: translateY(-2px);
 }
 
 .cards.icon .cards-card-image {
   flex-shrink: 0;
   width: 64px;
+  height: 64px;
+  margin-bottom: 16px;
 }
 
 .cards.icon > ul > li img {
@@ -99,6 +108,42 @@
 
 .cards.icon .cards-card-body {
   padding: 0;
+  flex: 1;
+}
+
+.cards.icon .cards-card-body h3 {
+  font-size: var(--heading-size-s);
+  color: var(--heading-color);
+  margin-top: 0;
+  margin-bottom: 8px;
+  font-weight: 600;
+}
+
+.cards.icon .cards-card-body p {
+  font-size: 14px;
+  color: var(--text-color);
+  line-height: 1.6;
+  margin-bottom: 12px;
+}
+
+.cards.icon .cards-card-body a:any-link {
+  color: var(--link-color);
+  font-size: 14px;
+  font-weight: 600;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.cards.icon .cards-card-body a:any-link::after {
+  content: '›';
+  font-size: 18px;
+  line-height: 1;
+}
+
+.cards.icon .cards-card-body a:hover {
+  color: var(--link-hover-color);
+  text-decoration: underline;
 }
 
 @media (width >= 600px) {
@@ -109,29 +154,87 @@
 
 @media (width >= 900px) {
   .cards.icon > ul {
-    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
   }
 }
 
-/* Promo variant - large promotional cards with images */
+/* ============================================================
+   Promo variant - "Get more with your mortgage" cards
+   ============================================================ */
+.cards.promo > ul {
+  gap: 20px;
+}
+
 .cards.promo > ul > li {
-  box-shadow: 0 2px 12px rgb(0 0 0 / 10%);
+  box-shadow: 0 2px 16px rgb(0 0 0 / 8%);
   border-radius: 12px;
+  border: 1px solid #e8e3df;
+  overflow: hidden;
+  transition: box-shadow 0.2s;
+}
+
+.cards.promo > ul > li:hover {
+  box-shadow: 0 6px 24px rgb(0 0 0 / 12%);
 }
 
 .cards.promo > ul > li img {
   aspect-ratio: 16 / 10;
+  object-fit: contain;
+  width: 100%;
+  background: #f4f0ed;
+  padding: 24px;
+  box-sizing: border-box;
+}
+
+.cards.promo .cards-card-body {
+  padding: 24px;
+  border-top: 3px solid var(--brand-gold);
 }
 
 .cards.promo .cards-card-body h3 {
   font-size: var(--heading-size-l);
+  color: var(--heading-color);
+  margin-top: 0;
+  margin-bottom: 12px;
 }
 
-/* Resource variant - text-only cards, no images */
+.cards.promo .cards-card-body p {
+  font-size: 14px;
+  line-height: 1.6;
+  color: var(--text-color);
+}
+
+.cards.promo .cards-card-body a:any-link {
+  color: var(--link-color);
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.cards.promo .cards-card-body a:hover {
+  color: var(--link-hover-color);
+}
+
+@media (width >= 600px) {
+  .cards.promo > ul {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (width >= 900px) {
+  .cards.promo > ul {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+/* ============================================================
+   Resource variant - text-only cards, no images
+   ============================================================ */
 .cards.resource > ul > li {
   background: linear-gradient(135deg, #f9f7f5 0%, #fff 100%);
   border-radius: 12px;
   box-shadow: none;
+  border-bottom: 3px solid var(--brand-gold);
 }
 
 .cards.resource > ul > li:hover {

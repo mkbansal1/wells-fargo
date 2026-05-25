@@ -103,7 +103,9 @@ a:hover {
   text-decoration: underline;
 }
 
-/* buttons */
+/* ============================================================
+   Buttons - Wells Fargo red pill style
+   ============================================================ */
 p.button-wrapper {
   margin: 12px 0;
 }
@@ -117,10 +119,10 @@ button.button {
   max-width: 100%;
   margin: 0;
   border: 2px solid transparent;
-  border-radius: 24px;
-  padding: 12px 24px;
+  border-radius: 50px;
+  padding: 14px 32px;
   font-family: var(--heading-font-family);
-  font-size: 14px;
+  font-size: 15px;
   font-weight: 600;
   line-height: 1.25;
   text-decoration: none;
@@ -129,14 +131,17 @@ button.button {
   text-overflow: ellipsis;
   white-space: nowrap;
   transition: background-color 0.2s, border-color 0.2s, color 0.2s;
+  letter-spacing: 0.01em;
 }
 
 a.button[aria-disabled="true"],
 button.button:disabled {
   cursor: not-allowed;
   pointer-events: none;
+  opacity: 0.6;
 }
 
+/* Primary = Wells Fargo Red */
 a.button.primary,
 button.button.primary {
   border-color: var(--brand-red);
@@ -151,8 +156,10 @@ button.button.primary:focus-visible {
   border-color: #a3161e;
   background-color: #a3161e;
   color: #fff;
+  text-decoration: none;
 }
 
+/* Secondary = outlined purple */
 a.button.secondary,
 button.button.secondary {
   border-color: var(--link-color);
@@ -165,23 +172,27 @@ a.button.secondary:focus-visible,
 button.button.secondary:hover,
 button.button.secondary:focus-visible {
   border-color: var(--link-hover-color);
-  background-color: var(--light-color);
+  background-color: transparent;
   color: var(--link-hover-color);
+  text-decoration: none;
 }
 
+/* Accent = outlined dark on light background */
 a.button.accent,
 button.button.accent {
-  border-color: var(--link-color);
-  background-color: var(--link-color);
-  color: #fff;
+  border-color: var(--heading-color);
+  background-color: transparent;
+  color: var(--heading-color);
 }
 
 a.button.accent:hover,
 a.button.accent:focus-visible,
 button.button.accent:hover,
 button.button.accent:focus-visible {
-  border-color: var(--link-hover-color);
-  background-color: var(--link-hover-color);
+  border-color: var(--heading-color);
+  background-color: var(--heading-color);
+  color: #fff;
+  text-decoration: none;
 }
 
 main img {
@@ -201,9 +212,11 @@ main img {
   width: 100%;
 }
 
-/* sections */
+/* ============================================================
+   Sections - Wells Fargo page layout
+   ============================================================ */
 main > .section {
-  margin: 40px 0;
+  margin: 48px 0;
 }
 
 main > .section > div {
@@ -222,30 +235,136 @@ main > .section:first-of-type {
   }
 }
 
+/* Section h2 headings with gold divider - Wells Fargo style */
+main > .section > div > h2 {
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 32px;
+  font-size: var(--heading-size-xl);
+  color: var(--heading-color);
+}
+
+main > .section > div > h2::before {
+  content: '';
+  display: block;
+  width: 56px;
+  height: 3px;
+  background: var(--brand-gold);
+  margin: 0 auto 16px;
+}
+
+/* H1 page title style */
+main > .section > div > h1 {
+  font-size: var(--heading-size-xxl);
+  color: var(--heading-color);
+  margin-bottom: 16px;
+}
+
+/* Standalone paragraph links in default-content sections (not inside blocks) */
+main .section > .default-content-wrapper > p:has(> a:only-child) {
+  text-align: center;
+  margin-top: 16px;
+  margin-bottom: 8px;
+}
+
+/* Default standalone link = red CTA pill (Wells Fargo primary style) */
+main .section > .default-content-wrapper > p > a:only-child {
+  color: #fff;
+  font-family: var(--heading-font-family);
+  font-weight: 600;
+  font-size: 15px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--brand-red);
+  border: 2px solid var(--brand-red);
+  border-radius: 50px;
+  padding: 14px 36px;
+  transition: background-color 0.2s, color 0.2s, border-color 0.2s;
+  text-decoration: none;
+  min-width: 200px;
+}
+
+main .section > .default-content-wrapper > p > a:only-child:hover {
+  background-color: #a3161e;
+  border-color: #a3161e;
+  color: #fff;
+  text-decoration: none;
+}
+
+/* "Learn more about homebuying/refinancing/faqs" — treat as secondary outlined */
+main .section > .default-content-wrapper > p > a[href$="/buying-a-house/"]:only-child,
+main .section > .default-content-wrapper > p > a[href$="/mortgage-refinance/"]:only-child,
+main .section > .default-content-wrapper > p > a[href*="/faqs/"]:only-child,
+main .section > .default-content-wrapper > p > a[href$="/learn/"]:only-child {
+  background-color: transparent;
+  border-color: var(--link-color);
+  color: var(--link-color);
+  min-width: 220px;
+}
+
+main .section > .default-content-wrapper > p > a[href$="/buying-a-house/"]:only-child:hover,
+main .section > .default-content-wrapper > p > a[href$="/mortgage-refinance/"]:only-child:hover,
+main .section > .default-content-wrapper > p > a[href*="/faqs/"]:only-child:hover,
+main .section > .default-content-wrapper > p > a[href$="/learn/"]:only-child:hover {
+  background-color: var(--link-color);
+  color: #fff;
+  text-decoration: none;
+}
+
 /* section metadata variants */
 main .section.light,
 main .section.highlight {
   background-color: var(--light-color);
   margin: 0;
-  padding: 40px 0;
+  padding: 48px 0;
 }
 
 main .section.dark {
   background-color: #2e2a2a;
   color: #fff;
   margin: 0;
-  padding: 40px 0;
+  padding: 48px 0;
+}
+
+main .section.dark h2,
+main .section.dark h3 {
+  color: #fff;
 }
 
 main .section.grey {
   background-color: #f4f0ed;
   margin: 0;
-  padding: 40px 0;
+  padding: 48px 0;
 }
 
 main .section.teal {
   background-color: #007a7a;
   color: #fff;
   margin: 0;
-  padding: 40px 0;
+  padding: 48px 0;
+}
+
+main .section.teal h2,
+main .section.teal h3 {
+  color: #fff;
+}
+
+/* "Rate quote" section just below hero - no gold divider */
+main > .section:nth-of-type(2) > div > h3 {
+  font-size: var(--heading-size-l);
+  color: var(--heading-color);
+  margin-bottom: 8px;
+}
+
+/* Breadcrumb-style h1 block at very top */
+main > .section:first-of-type {
+  margin-top: 0;
+  padding-top: 8px;
+}
+
+@media (width >= 900px) {
+  main > .section > div > h2 {
+    font-size: var(--heading-size-xxl);
+  }
 }

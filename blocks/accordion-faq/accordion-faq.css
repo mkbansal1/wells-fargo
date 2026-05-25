@@ -2,6 +2,7 @@
   border: 1px solid #e8e3df;
   border-radius: 4px;
   overflow: hidden;
+  margin-bottom: 4px;
 }
 
 .accordion-faq details + details {
@@ -10,23 +11,26 @@
 
 .accordion-faq details summary {
   position: relative;
-  padding: 16px 48px 16px 20px;
+  padding: 18px 52px 18px 20px;
   cursor: pointer;
   list-style: none;
   font-family: var(--heading-font-family);
   font-size: 16px;
   font-weight: 600;
   color: var(--heading-color);
+  background-color: #fff;
   transition: background-color 0.2s;
+  border-left: 4px solid transparent;
 }
 
 .accordion-faq details[open] summary {
-  background-color: var(--light-color);
+  background-color: #faf8f6;
+  border-left-color: var(--brand-gold);
 }
 
 .accordion-faq details summary:focus,
 .accordion-faq details summary:hover {
-  background-color: var(--light-color);
+  background-color: #faf8f6;
 }
 
 .accordion-faq details summary::-webkit-details-marker {
@@ -37,43 +41,50 @@
   content: '';
   position: absolute;
   top: 50%;
-  right: 20px;
+  right: 22px;
   transform: translateY(-50%) rotate(135deg);
-  width: 8px;
-  height: 8px;
-  border: 2px solid var(--heading-color);
+  width: 9px;
+  height: 9px;
+  border: 2px solid var(--link-color);
   border-width: 2px 2px 0 0;
   transition: transform 0.2s;
 }
 
 .accordion-faq details[open] summary::after {
-  transform: translateY(-50%) rotate(-45deg);
+  transform: translateY(-30%) rotate(-45deg);
 }
 
 .accordion-faq details .accordion-faq-item-body {
-  padding: 16px 20px 24px;
+  padding: 20px 24px 28px;
   border-top: 1px solid #e8e3df;
+  background-color: #faf8f6;
 }
 
 .accordion-faq details .accordion-faq-item-body p {
   font-size: 14px;
-  line-height: 1.6;
+  line-height: 1.7;
   color: var(--text-color);
   margin: 0 0 12px;
 }
 
 .accordion-faq details .accordion-faq-item-body ul {
   padding-left: 20px;
-  margin: 8px 0;
+  margin: 8px 0 12px;
 }
 
 .accordion-faq details .accordion-faq-item-body li {
   font-size: 14px;
   line-height: 1.6;
   margin-bottom: 8px;
+  color: var(--text-color);
 }
 
-.accordion-faq details .accordion-faq-item-body a {
+.accordion-faq details .accordion-faq-item-body a:any-link {
   color: var(--link-color);
   font-weight: 600;
+}
+
+.accordion-faq details .accordion-faq-item-body a:hover {
+  color: var(--link-hover-color);
+  text-decoration: underline;
 }
