@@ -1,0 +1,17 @@
+{
+  "status": "success",
+  "url": "https://www.wellsfargo.com/mortgage/learn/",
+  "path": "mortgage/learn",
+  "timestamp": "2026-05-25T04:29:20.046Z",
+  "title": "Mortgage learning and education center | Wells Fargo",
+  "template": "mortgage-learn",
+  "blocks": [
+    "hero-banner",
+    "cards",
+    "cards",
+    "cards",
+    "cards-icon",
+    "columns-promo",
+    "columns-contact"
+  ]
+}
