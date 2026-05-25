@@ -1,0 +1,40 @@
+:root {
+  /* Typography */
+  --heading-font-family: "Wells Fargo Sans SemiBold", arial, helvetica, sans-serif;
+  --body-font-family: "Wells Fargo Sans Regular", arial, helvetica, sans-serif;
+
+  /* Colors */
+  --background-color: #fff;
+  --text-color: #787070;
+  --heading-color: #2e2a2a;
+  --link-color: #5a469b;
+  --link-hover-color: #3d2d6b;
+  --brand-red: #d71e28;
+  --brand-gold: #ffcd41;
+  --light-color: #f4f0ed;
+
+  /* Heading Sizes */
+  --heading-size-xxl: 36px;
+  --heading-size-xl: 28px;
+  --heading-size-l: 24px;
+  --heading-size-m: 20px;
+  --heading-size-s: 18px;
+  --heading-size-xs: 16px;
+
+  /* Spacing */
+  --section-padding: 32px 16px;
+  --content-max-width: 1200px;
+  --nav-height: 67px;
+}
+
+@media (width >= 900px) {
+  :root {
+    --heading-size-xxl: 40px;
+    --heading-size-xl: 32px;
+    --heading-size-l: 24px;
+    --heading-size-m: 20px;
+    --heading-size-s: 18px;
+    --heading-size-xs: 16px;
+    --section-padding: 48px 32px;
+  }
+}

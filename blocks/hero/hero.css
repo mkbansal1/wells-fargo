@@ -5,8 +5,12 @@
 
 .hero {
   position: relative;
-  padding: 40px 24px;
+  padding: 48px 24px;
   min-height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
 }
 
 .hero h1,
@@ -14,24 +18,35 @@
 .hero h3,
 .hero h4,
 .hero h5,
-.hero h6,
-.hero p {
-  max-width: 1200px;
+.hero h6 {
+  max-width: 800px;
   margin-left: auto;
   margin-right: auto;
-  color: var(--background-color);
+  color: #fff;
+  font-size: var(--heading-size-xl);
+  text-shadow: 0 1px 4px rgb(0 0 0 / 30%);
 }
 
-.hero.no-image * {
-  color: var(--text-color);
+.hero p {
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  color: #fff;
+  font-size: 16px;
+}
+
+.hero.no-image h1,
+.hero.no-image h2,
+.hero.no-image h3,
+.hero.no-image p {
+  color: var(--heading-color);
+  text-shadow: none;
 }
 
 .hero picture {
   position: absolute;
   z-index: -1;
   inset: 0;
-  object-fit: cover;
-  box-sizing: border-box;
 }
 
 .hero img {
@@ -42,6 +57,11 @@
 
 @media (width >= 900px) {
   .hero {
-    padding: 40px 32px;
+    padding: 64px 32px;
+    min-height: 350px;
+  }
+
+  .hero h2 {
+    font-size: var(--heading-size-xxl);
   }
 }
