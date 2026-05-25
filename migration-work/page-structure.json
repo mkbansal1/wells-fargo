@@ -1,44 +1,57 @@
 {
-  "url": "https://www.wellsfargo.com/auto-loans/assist/",
-  "title": "Help with car payments and auto loan assistance | Wells Fargo",
-  "documentPath": "/auto-loans/assist/index",
+  "url": "https://www.wellsfargo.com/auto-loans/make-payments/",
+  "title": "How to make car payments and pay your Wells Fargo auto loan | Wells Fargo",
+  "documentPath": "/auto-loans/make-payments/index",
   "sections": [
     {
       "sectionNumber": 1,
       "name": "Hero Marquee",
-      "background": "image-based (photo of couple standing in front of house with car)",
-      "style": "dark overlay on image, centered white text",
-      "overview": "Full-width marquee image with centered heading and phone number call-to-action",
+      "background": "image-based (photo of woman on phone with yellow/gold tones)",
+      "style": "dark text on image background, centered text overlay",
+      "overview": "Full-width marquee image with heading and subtext about payment options",
       "sequences": [
         {
           "sequenceNumber": 1,
-          "description": "Full-width marquee image showing couple standing in front of house with car, overlaid with centered heading 'When you can't make a car payment, we're here to help' and paragraph with bold phone number 1-800-289-8004 and supportive text"
+          "description": "Full-width marquee image showing woman on phone, with centered heading 'Choose your way to pay' and subtext 'Make individual auto loan payments or set it and forget it with automatic payments.'"
         }
       ]
     },
     {
       "sectionNumber": 2,
-      "name": "What you can do",
+      "name": "Auto Loan Payment Options (Tabs)",
       "background": "white",
-      "style": "light, centered section title with decorative line, icon card grid below",
-      "overview": "Section heading followed by grid of 4 icon cards describing payment options",
+      "style": "light, centered section title with decorative line, tabbed content below with icons",
+      "overview": "Section heading followed by a tabbed interface showing payment methods (Online, Phone, Mail)",
       "sequences": [
         {
           "sequenceNumber": 1,
-          "description": "Centered section heading 'What you can do' with decorative line above"
+          "description": "Centered section heading 'Auto loan payment options' with decorative line above"
         },
         {
           "sequenceNumber": 2,
-          "description": "Grid of 4 items in a row, each with a small icon (64x64), a heading, and a short description paragraph. Items: 'Change your payment due date', 'Defer a payment', 'Make payment arrangements', 'Surrender your vehicle'"
+          "description": "Tabbed content interface with 3 tabs (Online, Phone, Mail), each with a distinctive icon. Online tab has description about enrolling in online banking and 'Get started' CTA. Phone tab shows automated payment system info with number 1-800-289-8004. Mail tab shows mailing address for checks/money orders to Wells Fargo Auto PO Box."
         }
       ]
     },
     {
       "sectionNumber": 3,
-      "name": "Related questions",
+      "name": "Autopay Promo",
+      "background": "gold/yellow (#fdb714)",
+      "style": "accent background, large image on left, heading and text with CTA on right",
+      "overview": "Full-width promotional banner for Autopay feature with image and text side by side",
+      "sequences": [
+        {
+          "sequenceNumber": 1,
+          "description": "Large promotional banner with full-width gold background. Image of woman on left side, heading 'Autopay lets you focus on what matters' on right, descriptive paragraph about Autopay debiting monthly from checking/savings account, and a 'Sign on' CTA button"
+        }
+      ]
+    },
+    {
+      "sectionNumber": 4,
+      "name": "Related Questions (FAQ)",
       "background": "white",
-      "style": "light, centered section title with decorative line, expandable FAQ items, centered CTA button at bottom",
-      "overview": "FAQ accordion section with 4 expandable questions and a link to view all FAQs",
+      "style": "light, centered section title with decorative line, expandable FAQ items below, centered CTA button at bottom",
+      "overview": "FAQ accordion section with 4 expandable questions and a link to review all FAQs",
       "sequences": [
         {
           "sequenceNumber": 1,
@@ -46,7 +59,7 @@
         },
         {
           "sequenceNumber": 2,
-          "description": "Four expandable question-and-answer pairs (accordion style): 'What happens if I miss a payment or make a late payment?', 'Does a late payment affect my credit?', 'What happens to my vehicle if it gets repossessed?', 'If you repossess my vehicle, can I get it back?'"
+          "description": "Four expandable question-and-answer pairs (accordion style): 'Can I make my car payment in advance?', 'How do I set up, change, or cancel automatic loan payments?', 'How do I change my payment due date?', 'Where can I find my payoff amount for my auto loan?'"
         },
         {
           "sequenceNumber": 3,
@@ -55,32 +68,32 @@
       ]
     },
     {
-      "sectionNumber": 4,
-      "name": "Additional resources",
-      "background": "white",
-      "style": "light, centered section title with decorative line, icon card grid with links below",
-      "overview": "Section heading followed by grid of 3 resource cards with icons, descriptions, and action links",
+      "sectionNumber": 5,
+      "name": "Customer Support",
+      "background": "white with cards having gold gradient backgrounds",
+      "style": "light, centered section title with decorative line, icon-based cards below in a 3-column grid",
+      "overview": "Section heading followed by grid of 3 support resource cards with icons",
       "sequences": [
         {
           "sequenceNumber": 1,
-          "description": "Centered section heading 'Additional resources' with decorative line above"
+          "description": "Centered section heading 'Customer support' with decorative line above"
         },
         {
           "sequenceNumber": 2,
-          "description": "Grid of 3 items, each with a small icon (64x64), heading, description text, and a link. Items: 'Financial Health' (Learn more link to /financial-health/), 'Explore payment options' (Let's go link to /auto-loans/make-payments/), 'Call us' (phone number 1-800-289-8004 with business hours)"
+          "description": "Grid of 3 items, each with a small icon (64x64) on gold gradient background, heading, description text, and a link. Items: 'Help with auto loan payments' (chat icon, 'Learn more' link to /auto-loans/assist/), 'Auto financing' (car icon, 'Let's go' link to /auto-loans/vehicle-financing-101/), 'Call us' (phone icon, phone number 1-800-289-8004 with business hours Mon-Sat)"
         }
       ]
     },
     {
-      "sectionNumber": 5,
+      "sectionNumber": 6,
       "name": "Footnotes and Disclaimers",
-      "background": "white",
-      "style": "light, small text",
-      "overview": "Legal footnotes and document reference codes",
+      "background": "light grey",
+      "style": "small text, numbered footnotes",
+      "overview": "Legal footnotes, terms references, and document codes",
       "sequences": [
         {
           "sequenceNumber": 1,
-          "description": "Footnote text: '1. Terms and conditions apply...' referencing Autopay, followed by document codes QSR-12052026-8045543.1.1 and LRC-0925"
+          "description": "Numbered footnotes: 1) Mobile carrier coverage and rates disclaimer, 2) Terms and conditions for Online Access Agreement. Followed by document codes QSR-12062026-8049532.1.1 and LRC-0925"
         }
       ]
     }
@@ -88,16 +101,18 @@
   "excludedElements": [
     "Header/navigation (auto-populated by AEM EDS)",
     "Footer (auto-populated by AEM EDS)",
-    "Cookie consent banner (OneTrust)",
-    "Exit interstitial modal (leaving site warning)",
+    "Cookie consent banner",
     "Feedback survey widget",
-    "Chat widget (Nuance)"
+    "Chat widget (Nuance)",
+    "Language preference popup",
+    "Lightbox container"
   ],
   "blockInventory": {
     "localBlocks": [
       {
         "name": "hero",
-        "purpose": "Large heading, text, buttons, optional background image for page intro"
+        "purpose": "Large heading, text, buttons, optional background image for page intro",
+        "variants": []
       },
       {
         "name": "cards",
@@ -111,20 +126,10 @@
       },
       {
         "name": "accordion-faq",
-        "purpose": "Expandable question and answer sections (FAQ format)"
-      },
-      {
-        "name": "header",
-        "purpose": "Site header navigation (auto-loaded)"
-      },
-      {
-        "name": "footer",
-        "purpose": "Site footer (auto-loaded)"
-      },
-      {
-        "name": "fragment",
-        "purpose": "Reusable content sections"
+        "purpose": "Expandable question and answer sections (FAQ format)",
+        "variants": []
       }
-    ]
+    ],
+    "excludedFromAnalysis": ["header", "footer", "fragment"]
   }
 }

@@ -1,0 +1,20 @@
+{
+  "status": "success",
+  "url": "https://www.wellsfargo.com/auto-loans/make-payments/",
+  "path": "auto-loans/make-payments",
+  "timestamp": "2026-05-25T05:10:00.448Z",
+  "title": "How to make car payments and pay your Wells Fargo auto loan | Wells Fargo",
+  "template": "auto-loans-make-payments",
+  "blocks": [
+    "hero-banner",
+    "accordion-faq",
+    "accordion-faq",
+    "accordion-faq",
+    "accordion-faq",
+    "accordion-faq",
+    "accordion-faq",
+    "accordion-faq",
+    "columns-promo",
+    "cards-icon"
+  ]
+}

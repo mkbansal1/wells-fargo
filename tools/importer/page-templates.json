@@ -490,6 +490,107 @@
           "defaultContent": []
         }
       ]
+    },
+    {
+      "name": "auto-loans-make-payments",
+      "urls": [
+        "https://www.wellsfargo.com/auto-loans/make-payments/"
+      ],
+      "description": "Auto loans payment options page with methods to pay and account management",
+      "blocks": [
+        {
+          "name": "hero-banner",
+          "instances": [
+            ".rsk-marquee-container"
+          ]
+        },
+        {
+          "name": "accordion-faq",
+          "instances": [
+            "details.show-hide-content-wrapper",
+            ".ps-responsive-tab details.tab-mobile-item"
+          ]
+        },
+        {
+          "name": "columns-promo",
+          "instances": [
+            ".ps-large-promo-full-container"
+          ]
+        },
+        {
+          "name": "cards-icon",
+          "instances": [
+            ".ps-marketing-small-promo-items"
+          ]
+        }
+      ],
+      "sections": [
+        {
+          "id": "section-1",
+          "name": "Hero",
+          "selector": ".rsk-marquee-container",
+          "style": null,
+          "blocks": [
+            "hero-banner"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "section-2",
+          "name": "Payment Options",
+          "selector": ".ps-responsive-tab",
+          "style": null,
+          "blocks": [
+            "accordion-faq"
+          ],
+          "defaultContent": [
+            ".ps-mid-page-title"
+          ]
+        },
+        {
+          "id": "section-3",
+          "name": "Autopay Promo",
+          "selector": ".ps-large-promo-full-container",
+          "style": null,
+          "blocks": [
+            "columns-promo"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "section-4",
+          "name": "FAQ",
+          "selector": "main > .card-background-white:nth-of-type(2)",
+          "style": null,
+          "blocks": [
+            "accordion-faq"
+          ],
+          "defaultContent": [
+            ".ps-mid-page-title",
+            ".ps-btn-secondary"
+          ]
+        },
+        {
+          "id": "section-5",
+          "name": "Support",
+          "selector": ".ps-marketing-small-promo-items",
+          "style": null,
+          "blocks": [
+            "cards-icon"
+          ],
+          "defaultContent": [
+            ".ps-mid-page-title"
+          ]
+        },
+        {
+          "id": "section-6",
+          "name": "Footnotes",
+          "selector": "main > .ps-footnote",
+          "style": null,
+          "blocks": [],
+          "defaultContent": []
+        }
+      ]
     }
   ]
 }
