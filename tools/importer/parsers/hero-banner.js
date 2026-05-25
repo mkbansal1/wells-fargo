@@ -39,6 +39,6 @@ export default function parse(element, { document }) {
     cells.push(contentCell);
   }
 
-  const block = WebImporter.Blocks.createBlock(document, { name: 'hero-banner', cells });
+  const block = WebImporter.Blocks.createBlock(document, { name: 'Hero', cells });
   element.replaceWith(block);
 }
