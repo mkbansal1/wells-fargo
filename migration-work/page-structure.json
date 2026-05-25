@@ -1,137 +1,74 @@
 {
-  "url": "https://www.wellsfargo.com/auto-loans/vehicle-financing-101/",
-  "title": "A guide to new and used car loans | Wells Fargo",
-  "documentPath": "/auto-loans/vehicle-financing-101/index",
+  "url": "https://www.wellsfargo.com/equity/",
+  "title": "What is home equity? | Wells Fargo",
+  "documentPath": "/equity/index",
   "sections": [
     {
       "sectionNumber": 1,
-      "name": "Hero Marquee",
-      "background": "full-width image of truck at dealership with dark text overlay",
-      "style": "dark text on image background, centered text overlay",
-      "overview": "Full-width marquee image with heading and subtext about asking dealer for Wells Fargo auto loans",
+      "name": "Hero Banner",
+      "background": "full-width image - couple renovating home with white text panel overlay on left",
+      "style": "marquee image background, white text overlay left-aligned",
+      "overview": "Full-width hero marquee with image of couple renovating and overlaid text content with CTA",
       "sequences": [
         {
           "sequenceNumber": 1,
-          "description": "Full-width marquee image showing truck at a dealership, with centered heading 'Ask your dealer about Wells Fargo auto loans' and subtext 'Our nationwide network of nearly 11,000 dealerships is ready to help.'"
+          "description": "Full-width marquee image showing couple renovating home, with left-aligned white panel containing H2 heading 'Have equity in your home?', paragraph 'Unlock your financing options with a cash-out refinance.', and primary CTA button 'Get a rate quote'."
         }
       ]
     },
     {
       "sectionNumber": 2,
-      "name": "Auto loans: what to know (Tabs)",
+      "name": "Article Body Content",
       "background": "white",
-      "style": "light, centered section title with decorative line, tabbed content below with icons",
-      "overview": "Section heading and introductory paragraph followed by a tabbed interface showing auto loan variables",
+      "style": "left-aligned long-form informational text content",
+      "overview": "Long-form educational article about home equity with multiple H2 sections and paragraph text",
       "sequences": [
         {
           "sequenceNumber": 1,
-          "description": "Centered section heading 'Auto loans: what to know' with decorative line above, followed by paragraph 'Financing a car can be overwhelming. Understanding the common variables of auto loans makes the process easier.'"
-        },
-        {
-          "sequenceNumber": 2,
-          "description": "Tabbed content interface with 4 tabs (Interest rate, Term length, Total amount financed, Monthly payment amount), each with a distinctive icon. Each tab reveals a short explanatory paragraph about that auto loan variable."
+          "description": "Multiple H2 headings with body paragraphs forming a long-form educational article. Sections: 'Understanding Home Equity: Building and Benefits' (intro paragraphs), 'What is home equity?' (definition), 'How to calculate home equity' (explanation with dollar amounts), 'Building your home equity' (four bold-titled methods: Down payment, Good mortgage paying habits, Extra mortgage payments, Update and improve your home), and 'The value in home equity' (three bold-titled benefits: Higher profit once you sell, Options to borrow against your equity, Impact on your credit score). Contains inline links and footnote superscript references."
         }
       ]
     },
     {
       "sectionNumber": 3,
-      "name": "Credit Close-Up Promo",
-      "background": "white",
-      "style": "light, centered section title, then large promo with image on left and text on right",
-      "overview": "Section heading followed by a large promotional block for Credit Close-Up credit score tracking",
+      "name": "CTA Banner",
+      "background": "grey (#f5f5f5)",
+      "style": "centered text with prominent heading and secondary CTA button",
+      "overview": "Grey call-to-action section encouraging consultation with a mortgage consultant",
       "sequences": [
         {
           "sequenceNumber": 1,
-          "description": "Centered section heading 'Increase your likelihood of credit approval' with decorative line above"
-        },
-        {
-          "sequenceNumber": 2,
-          "description": "Large promotional block with credit score gauge image (showing 808) on the left side, and on the right: heading 'Track your credit score with Credit Close-Up', descriptive paragraph, bullet list of 3 benefits (understand score changes, make improvement plan, set alerts), simulated screen disclaimer, and a 'Let's go' CTA button"
+          "description": "Centered H2 heading 'Still have questions? Talk with a mortgage consultant to hear more about what benefits you can get from your home equity.' followed by a centered secondary CTA button 'Get started'."
         }
       ]
     },
     {
       "sectionNumber": 4,
-      "name": "Before you buy",
+      "name": "Contact Information Cards",
       "background": "white",
-      "style": "light, centered section title with decorative line, 3-column card grid below",
-      "overview": "Section heading followed by 3 cards with images and descriptions for car buying preparation",
+      "style": "centered heading with three-column card layout below",
+      "overview": "Section with heading and three contact method cards displayed side-by-side",
       "sequences": [
         {
           "sequenceNumber": 1,
-          "description": "Centered section heading 'Before you buy' with decorative line above"
+          "description": "Centered H2 heading 'Talk to a mortgage consultant' with decorative line above"
         },
         {
           "sequenceNumber": 2,
-          "description": "Grid of 3 cards, each with a large top image (car photos), bold title (Plan, Research, Budget), and descriptive paragraph text. Research card includes links to Kelley Blue Book and Edmunds."
+          "description": "Three items displayed side-by-side in equal columns. Each item has: (1) 'Call us' - phone number 1-866-448-0571, business hours Mon-Fri 7am-8pm, Sat 8am-6pm Central Time, Spanish language note; (2) 'Let us contact you' - description text and 'Get a call back' secondary button; (3) 'Find a consultant' - description text and 'Search locations' secondary button."
         }
       ]
     },
     {
       "sectionNumber": 5,
-      "name": "How to evaluate new and used vehicles (Tabs)",
+      "name": "Disclaimers and Footnotes",
       "background": "white",
-      "style": "light, centered section title with decorative line, tabbed content below with icons",
-      "overview": "Section heading followed by a tabbed interface showing evaluation steps",
+      "style": "small text, left-aligned legal disclaimers",
+      "overview": "Legal footnotes and disclaimers about loan terms and service member advisory",
       "sequences": [
         {
           "sequenceNumber": 1,
-          "description": "Centered section heading 'How to evaluate new and used vehicles' with decorative line above"
-        },
-        {
-          "sequenceNumber": 2,
-          "description": "Tabbed content interface with 4 tabs (Find a vehicle you love, Inspect and test drive, Explore incentives, Ask about warranties), each with a distinctive icon. Each tab reveals a paragraph with advice for that evaluation step."
-        }
-      ]
-    },
-    {
-      "sectionNumber": 6,
-      "name": "Answers to auto financing questions (FAQ)",
-      "background": "white",
-      "style": "light, centered section title with decorative line, expandable FAQ items, centered CTA button at bottom",
-      "overview": "FAQ accordion section with 4 expandable questions and a link to review all FAQs",
-      "sequences": [
-        {
-          "sequenceNumber": 1,
-          "description": "Centered section heading 'Answers to auto financing questions' with decorative line above"
-        },
-        {
-          "sequenceNumber": 2,
-          "description": "Four expandable question-and-answer pairs (accordion style): 'How much experience does Wells Fargo have with auto financing?', 'How do I apply for a Wells Fargo auto loan?', 'What are aftermarket products?', 'What is Guaranteed Asset Protection (GAP)?'"
-        },
-        {
-          "sequenceNumber": 3,
-          "description": "Centered secondary button labeled 'Review all FAQs' linking to /help/loans/auto-loans-faqs/"
-        }
-      ]
-    },
-    {
-      "sectionNumber": 7,
-      "name": "Additional resources",
-      "background": "white with cards having gold/yellow gradient backgrounds",
-      "style": "light, centered section title with decorative line, icon-based cards below in a 3-column grid",
-      "overview": "Section heading followed by grid of 3 resource cards with icons on gradient backgrounds",
-      "sequences": [
-        {
-          "sequenceNumber": 1,
-          "description": "Centered section heading 'Additional resources' with decorative line above"
-        },
-        {
-          "sequenceNumber": 2,
-          "description": "Grid of 3 items, each with a small icon (64x64) on gold gradient background, heading, description text, and a CTA link. Items: 'Explore payment options' (cash icon, 'Let's go' link to /auto-loans/make-payments/), 'LifeSync' (goal-setting icon, 'Get started' link to sites.wf.com/lifesync/), 'Call us' (phone icon, number 1-800-289-8004 with business hours Mon-Sat)"
-        }
-      ]
-    },
-    {
-      "sectionNumber": 8,
-      "name": "Footnotes and Disclaimers",
-      "background": "white",
-      "style": "small text, numbered footnotes",
-      "overview": "Legal footnotes, FICO trademark notice, and document codes",
-      "sequences": [
-        {
-          "sequenceNumber": 1,
-          "description": "Numbered footnotes: 1) Sign-up/mobile carrier disclaimer, 2) FICO Score eligibility/disclaimer for Wells Fargo account holders, 3) Terms for Online Access Agreement. Followed by Online Statements info, FICO trademark notice, and document codes QSR-12022026-8027176.1.1 and LRC-0925"
+          "description": "Two disclaimer paragraphs (loan term interest warning, service member SCRA advisory). Two numbered footnotes about debt consolidation. Equal Housing Lender notice. Wells Fargo Home Mortgage division identification. Document code DT1-12182026-12-8674102-1.1."
         }
       ]
     }
@@ -139,9 +76,11 @@
   "excludedElements": [
     "Header/navigation (auto-populated by AEM EDS)",
     "Footer (auto-populated by AEM EDS)",
-    "Cookie consent banner",
-    "Feedback survey widget",
-    "External site modals (Carfax, KBB, Edmunds leaving notices)"
+    "Cookie consent banner (OneTrust)",
+    "Chat widget (Nuance)",
+    "Tracking pixels and analytics iframes",
+    "Language preference modal",
+    "Feedback survey widget"
   ],
   "blockInventory": {
     "localBlocks": [

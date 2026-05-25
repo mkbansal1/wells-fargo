@@ -724,6 +724,78 @@
           "defaultContent": []
         }
       ]
+    },
+    {
+      "name": "equity-landing",
+      "urls": [
+        "https://www.wellsfargo.com/equity/"
+      ],
+      "description": "Home equity landing page with loan options and resources",
+      "blocks": [
+        {
+          "name": "hero-banner",
+          "instances": [
+            ".rsk-marquee-container"
+          ]
+        },
+        {
+          "name": "columns-contact",
+          "instances": [
+            ".card-container.three-card"
+          ]
+        }
+      ],
+      "sections": [
+        {
+          "id": "section-1",
+          "name": "Hero",
+          "selector": ".rsk-marquee-container",
+          "style": null,
+          "blocks": [
+            "hero-banner"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "section-2",
+          "name": "Article Body",
+          "selector": "main > .enhanced-txt-cm.text-aligned-left",
+          "style": null,
+          "blocks": [],
+          "defaultContent": []
+        },
+        {
+          "id": "section-3",
+          "name": "CTA Banner",
+          "selector": ".card-background-gray",
+          "style": "grey",
+          "blocks": [],
+          "defaultContent": [
+            ".ps-mid-page-title",
+            ".ps-btn-secondary"
+          ]
+        },
+        {
+          "id": "section-4",
+          "name": "Contact",
+          "selector": ".card-background-white:has(.three-card)",
+          "style": null,
+          "blocks": [
+            "columns-contact"
+          ],
+          "defaultContent": [
+            ".ps-mid-page-title"
+          ]
+        },
+        {
+          "id": "section-5",
+          "name": "Footnotes",
+          "selector": "main > .ps-footnote",
+          "style": null,
+          "blocks": [],
+          "defaultContent": []
+        }
+      ]
     }
   ]
 }

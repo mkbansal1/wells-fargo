@@ -1,0 +1,12 @@
+{
+  "status": "success",
+  "url": "https://www.wellsfargo.com/equity/",
+  "path": "equity",
+  "timestamp": "2026-05-25T05:26:21.618Z",
+  "title": "What is home equity? | Wells Fargo",
+  "template": "equity-landing",
+  "blocks": [
+    "hero-banner",
+    "columns-contact"
+  ]
+}
