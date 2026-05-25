@@ -2,7 +2,7 @@
 
 export default function parse(element, { document }) {
   const cells = [];
-  cells.push(['Columns-app-promo']);
+  cells.push(['Columns (app-promo)']);
 
   const img = element.querySelector('.native-app-carousel img');
   const heading = element.querySelector('.native-app-header h2');

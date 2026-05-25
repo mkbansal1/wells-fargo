@@ -3,7 +3,7 @@
 
 export default function parse(element, { document }) {
   const cells = [];
-  cells.push(['Columns-promo']);
+  cells.push(['Columns (promo)']);
 
   const img = element.querySelector('.ps-promo-full-image img');
   const heading = element.querySelector('.ps-promo-full-content h2');

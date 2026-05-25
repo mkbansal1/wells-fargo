@@ -29,6 +29,6 @@ export default function parse(element, { document }) {
     cells.push(row);
   }
 
-  const block = WebImporter.Blocks.createBlock(document, { name: 'columns-testimonial', cells });
+  const block = WebImporter.Blocks.createBlock(document, { name: 'Columns (testimonial)', cells });
   element.replaceWith(block);
 }

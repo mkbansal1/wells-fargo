@@ -31,3 +31,54 @@
     order: unset;
   }
 }
+
+/* Testimonial variant - centered quoted text with attribution */
+.columns.testimonial > div {
+  text-align: center;
+}
+
+.columns.testimonial > div > div {
+  padding: 24px;
+  font-style: italic;
+}
+
+.columns.testimonial > div > div p:last-child {
+  font-style: normal;
+  font-weight: bold;
+}
+
+/* Contact variant - multi-column contact info grid */
+.columns.contact > div {
+  gap: 16px;
+}
+
+.columns.contact > div > div {
+  padding: 16px;
+  border: 1px solid #dadada;
+  border-radius: 4px;
+}
+
+/* App-promo variant - device image + download links */
+.columns.app-promo > div {
+  background-color: #007a7a;
+  color: #fff;
+  padding: 32px;
+  border-radius: 8px;
+}
+
+.columns.app-promo .columns-img-col img {
+  max-width: 290px;
+  margin: 0 auto;
+}
+
+/* Promo variant - lifestyle image + marketing CTA */
+.columns.promo > div {
+  background-color: #f5f5f5;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.columns.promo .columns-img-col img {
+  object-fit: cover;
+  height: 100%;
+}

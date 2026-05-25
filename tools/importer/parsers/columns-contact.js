@@ -40,6 +40,6 @@ export default function parse(element, { document }) {
     cells.push(row);
   }
 
-  const block = WebImporter.Blocks.createBlock(document, { name: 'columns-contact', cells });
+  const block = WebImporter.Blocks.createBlock(document, { name: 'Columns (contact)', cells });
   element.replaceWith(block);
 }
