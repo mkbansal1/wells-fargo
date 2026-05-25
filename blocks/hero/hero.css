@@ -1,3 +1,10 @@
+/* Page title above hero - small like source */
+.hero-container > .default-content-wrapper h1 {
+  font-size: 20px;
+  margin: 12px 24px;
+  font-weight: 600;
+}
+
 .hero-container .hero-wrapper {
   max-width: unset;
   padding: 0;
@@ -48,24 +55,49 @@
   margin: 0 auto 20px;
 }
 
-.hero h1,
-.hero h2,
-.hero h3,
-.hero h4,
-.hero h5,
-.hero h6 {
+.hero h2 {
   color: var(--heading-color);
   font-size: var(--heading-size-xl);
   text-shadow: none;
-  margin: 0;
+  margin: 0 0 16px;
   font-weight: 600;
+}
+
+.hero h3 {
+  color: var(--heading-color);
+  font-size: var(--heading-size-m);
+  font-weight: 700;
+  margin: 16px 0 8px;
 }
 
 .hero p {
   color: var(--text-color);
-  font-size: 16px;
+  font-size: 15px;
   margin-top: 8px;
   text-shadow: none;
+}
+
+.hero p a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 220px;
+  padding: 14px 32px;
+  background-color: var(--brand-red);
+  border: 2px solid var(--brand-red);
+  border-radius: 50px;
+  color: #fff;
+  font-family: var(--heading-font-family);
+  font-size: 15px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: background-color 0.2s;
+}
+
+.hero p a:hover {
+  background-color: #a3161e;
+  border-color: #a3161e;
+  text-decoration: none;
 }
 
 /* No-image variant */
