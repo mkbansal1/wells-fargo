@@ -1,103 +1,86 @@
 {
-  "url": "https://www.wellsfargo.com/auto-loans/",
-  "title": "Auto loans and financing | Wells Fargo",
-  "documentPath": "/auto-loans/index",
+  "url": "https://www.wellsfargo.com/auto-loans/assist/",
+  "title": "Help with car payments and auto loan assistance | Wells Fargo",
+  "documentPath": "/auto-loans/assist/index",
   "sections": [
     {
       "sectionNumber": 1,
-      "name": "Hero/Marquee",
-      "background": "red gradient with large photo",
-      "style": "dark (red brand color background with image)",
-      "overview": "Full-width hero banner with car/family photo and text overlay with CTA",
+      "name": "Hero Marquee",
+      "background": "image-based (photo of couple standing in front of house with car)",
+      "style": "dark overlay on image, centered white text",
+      "overview": "Full-width marquee image with centered heading and phone number call-to-action",
       "sequences": [
         {
           "sequenceNumber": 1,
-          "description": "Full-width banner with background image of family with car, heading 'The easy way to manage your auto loan', supporting text about account setup, and a 'Get started' call-to-action button"
+          "description": "Full-width marquee image showing couple standing in front of house with car, overlaid with centered heading 'When you can't make a car payment, we're here to help' and paragraph with bold phone number 1-800-289-8004 and supportive text"
         }
       ]
     },
     {
       "sectionNumber": 2,
-      "name": "Benefits",
-      "background": "white/light",
-      "style": "light",
-      "overview": "Three icon-based feature cards highlighting auto financing benefits",
+      "name": "What you can do",
+      "background": "white",
+      "style": "light, centered section title with decorative line, icon card grid below",
+      "overview": "Section heading followed by grid of 4 icon cards describing payment options",
       "sequences": [
         {
           "sequenceNumber": 1,
-          "description": "Centered heading 'Benefits of Wells Fargo auto financing'"
+          "description": "Centered section heading 'What you can do' with decorative line above"
         },
         {
           "sequenceNumber": 2,
-          "description": "Grid of 3 items, each with a small circular icon, heading, and short description text (Nationwide network, Convenience, Peace of mind)"
+          "description": "Grid of 4 items in a row, each with a small icon (64x64), a heading, and a short description paragraph. Items: 'Change your payment due date', 'Defer a payment', 'Make payment arrangements', 'Surrender your vehicle'"
         }
       ]
     },
     {
       "sectionNumber": 3,
-      "name": "Mobile App Promo",
-      "background": "teal/green gradient",
-      "style": "accent (teal/green background)",
-      "overview": "App promotion section with phone mockup image and app store download links",
+      "name": "Related questions",
+      "background": "white",
+      "style": "light, centered section title with decorative line, expandable FAQ items, centered CTA button at bottom",
+      "overview": "FAQ accordion section with 4 expandable questions and a link to view all FAQs",
       "sequences": [
         {
           "sequenceNumber": 1,
-          "description": "Two-column layout: left side has phone mockup image showing app screen; right side has heading 'Banking where and when you need it', description text about account access, and Apple/Google app store download badges"
+          "description": "Centered section heading 'Related questions' with decorative line above"
+        },
+        {
+          "sequenceNumber": 2,
+          "description": "Four expandable question-and-answer pairs (accordion style): 'What happens if I miss a payment or make a late payment?', 'Does a late payment affect my credit?', 'What happens to my vehicle if it gets repossessed?', 'If you repossess my vehicle, can I get it back?'"
+        },
+        {
+          "sequenceNumber": 3,
+          "description": "Centered secondary button labeled 'Review all FAQs' linking to /help/loans/auto-loans-faqs/"
         }
       ]
     },
     {
       "sectionNumber": 4,
-      "name": "Auto Loan Journey Cards",
-      "background": "white/light",
-      "style": "light",
-      "overview": "Three promotional cards with images showing different loan journey stages",
+      "name": "Additional resources",
+      "background": "white",
+      "style": "light, centered section title with decorative line, icon card grid with links below",
+      "overview": "Section heading followed by grid of 3 resource cards with icons, descriptions, and action links",
       "sequences": [
         {
           "sequenceNumber": 1,
-          "description": "Centered heading 'Wherever you are in your auto loan journey, we're here for you'"
+          "description": "Centered section heading 'Additional resources' with decorative line above"
         },
         {
           "sequenceNumber": 2,
-          "description": "Grid of 3 cards, each with a large landscape image, bold title, description text, and a text link CTA (Learn about auto financing, Explore payment options, Get help with payments)"
+          "description": "Grid of 3 items, each with a small icon (64x64), heading, description text, and a link. Items: 'Financial Health' (Learn more link to /financial-health/), 'Explore payment options' (Let's go link to /auto-loans/make-payments/), 'Call us' (phone number 1-800-289-8004 with business hours)"
         }
       ]
     },
     {
       "sectionNumber": 5,
-      "name": "FAQ",
-      "background": "white/light",
-      "style": "light",
-      "overview": "Expandable FAQ section with questions and answers",
+      "name": "Footnotes and Disclaimers",
+      "background": "white",
+      "style": "light, small text",
+      "overview": "Legal footnotes and document reference codes",
       "sequences": [
         {
           "sequenceNumber": 1,
-          "description": "Centered heading 'Answers to auto loan questions'"
-        },
-        {
-          "sequenceNumber": 2,
-          "description": "Four expandable question-answer pairs about auto loan topics (applying, managing online, paper statements, payment due date)"
-        },
-        {
-          "sequenceNumber": 3,
-          "description": "Centered secondary button 'Review all FAQs' linking to full FAQ page"
-        }
-      ]
-    },
-    {
-      "sectionNumber": 6,
-      "name": "Customer Support",
-      "background": "white/light with gradient card backgrounds",
-      "style": "light with gradient card backgrounds",
-      "overview": "Three support option cards with icons and contact info",
-      "sequences": [
-        {
-          "sequenceNumber": 1,
-          "description": "Centered heading 'Customer support'"
-        },
-        {
-          "sequenceNumber": 2,
-          "description": "Grid of 3 items, each with a circular icon, heading, description text, and a CTA link (Ask Fargo with 'Meet Fargo' link, Financial Health with 'Learn more' link, Call us with phone number and hours)"
+          "description": "Footnote text: '1. Terms and conditions apply...' referencing Autopay, followed by document codes QSR-12052026-8045543.1.1 and LRC-0925"
         }
       ]
     }
@@ -105,37 +88,43 @@
   "excludedElements": [
     "Header/navigation (auto-populated by AEM EDS)",
     "Footer (auto-populated by AEM EDS)",
-    "Cookie consent banner",
-    "Exit modals (App Store/Google Play leaving site warnings)",
-    "Footnotes section (will be handled as metadata or separate fragment)",
-    "Feedback survey widget"
+    "Cookie consent banner (OneTrust)",
+    "Exit interstitial modal (leaving site warning)",
+    "Feedback survey widget",
+    "Chat widget (Nuance)"
   ],
   "blockInventory": {
     "localBlocks": [
-      { "name": "hero", "description": "Large heading, text, buttons for page intro" },
-      { "name": "hero-banner", "description": "Product hero with full-width banner image and heading overlay" },
-      { "name": "cards", "description": "Grid of items with images/text" },
-      { "name": "cards-icon", "description": "Feature cards with small icons, heading, description, CTA" },
-      { "name": "cards-promo", "description": "Promotional cards with large images, heading, description, text link" },
-      { "name": "cards-resource", "description": "Text-only resource/tool navigation cards" },
-      { "name": "columns", "description": "Side-by-side content layout" },
-      { "name": "columns-contact", "description": "Multi-channel contact info grid (4 columns)" },
-      { "name": "columns-testimonial", "description": "Two-column customer testimonial quotes" },
-      { "name": "accordion-faq", "description": "FAQ-style expandable question-answer pairs" },
-      { "name": "fragment", "description": "Reusable content sections" }
-    ],
-    "blockCollectionAvailable": [
-      { "name": "hero", "description": "Large heading, text, buttons for page intro with background image" },
-      { "name": "cards", "description": "Grid of items with images and text in 2 columns" },
-      { "name": "cards (no images)", "description": "Text-only card grid with heading, description, CTA" },
-      { "name": "columns", "description": "Side-by-side content in multiple columns" },
-      { "name": "accordion", "description": "Collapsible sections for Q&A content" },
-      { "name": "tabs", "description": "Tabbed content switching interface" },
-      { "name": "carousel", "description": "Rotating/swipable image and content slides" },
-      { "name": "video", "description": "Embedded video player" },
-      { "name": "embed", "description": "External content embedding (video, social)" },
-      { "name": "table", "description": "Tabular data display" },
-      { "name": "search", "description": "Site content search interface" }
+      {
+        "name": "hero",
+        "purpose": "Large heading, text, buttons, optional background image for page intro"
+      },
+      {
+        "name": "cards",
+        "purpose": "Grid of items with images/icons and text",
+        "variants": ["icon", "promo", "resource"]
+      },
+      {
+        "name": "columns",
+        "purpose": "Side-by-side content layout",
+        "variants": ["testimonial", "contact", "app-promo", "promo"]
+      },
+      {
+        "name": "accordion-faq",
+        "purpose": "Expandable question and answer sections (FAQ format)"
+      },
+      {
+        "name": "header",
+        "purpose": "Site header navigation (auto-loaded)"
+      },
+      {
+        "name": "footer",
+        "purpose": "Site footer (auto-loaded)"
+      },
+      {
+        "name": "fragment",
+        "purpose": "Reusable content sections"
+      }
     ]
   }
 }

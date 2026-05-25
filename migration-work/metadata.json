@@ -1,162 +1,165 @@
 {
-  "url": "https://www.wellsfargo.com/auto-loans/",
-  "timestamp": "2026-05-21T09:15:44.796Z",
+  "url": "https://www.wellsfargo.com/auto-loans/assist/",
+  "timestamp": "2026-05-25T04:56:37.762Z",
   "paths": {
-    "documentPath": "/auto-loans/index",
-    "htmlFilePath": "/auto-loans/index.plain.html",
-    "mdFilePath": "/auto-loans/index.md",
-    "dirPath": "/auto-loans",
+    "documentPath": "/auto-loans/assist/index",
+    "htmlFilePath": "/auto-loans/assist/index.plain.html",
+    "mdFilePath": "/auto-loans/assist/index.md",
+    "dirPath": "/auto-loans/assist",
     "filename": "index"
   },
-  "screenshot": "/backups/mkbansal1/wells-fargo/repo/migration-work/screenshot.png",
+  "screenshot": "migration-work/screenshot.png",
   "html": {
-    "filePath": "/backups/mkbansal1/wells-fargo/repo/migration-work/cleaned.html",
-    "size": 101129
+    "filePath": "migration-work/cleaned.html",
+    "size": 78550
   },
   "metadata": {
-    "title": "Auto loans and financing | Wells Fargo",
+    "title": "Help with car payments and auto loan assistance | Wells Fargo",
     "viewport": "width=device-width, initial-scale=1.0",
-    "description": "Learn more about auto loans and financing from Wells Fargo, available through our network of 11,000 dealerships.",
-    "keywords": "auto financing, auto loan, auto loans, vehicle financing, how to get an auto loan",
+    "description": "If you can’t make your car payment and need help, reach out to us for assistance with finding out your options.",
+    "keywords": "help with car payment, auto payment help, car payment assistance, vehicle payment assistance",
     "robots": "index, follow",
-    "canonical": "https://www.wellsfargo.com/auto-loans/",
+    "canonical": "https://www.wellsfargo.com/auto-loans/assist/",
     "jsonLd": {
       "@type": [
-        "FinancialProduct"
+        "AboutPage"
       ],
-      "@id": "https://www.wellsfargo.com/auto-loans/#FinancialProduct",
+      "@id": "https://www.wellsfargo.com/auto-loans/assist/#AboutPage",
       "@context": {
         "@vocab": "http://schema.org/",
         "kg": "http://g.co/kg"
       },
       "url": [
-        "https://www.wellsfargo.com/auto-loans/",
-        "https://www.wellsfargo.com/auto-loans/"
+        "https://www.wellsfargo.com/auto-loans/assist/",
+        "https://www.wellsfargo.com/auto-loans/assist/"
       ],
-      "provider": [
+      "about": [
+        {
+          "@type": "FinancialProduct",
+          "@id": "https://www.wellsfargo.com/auto-loans/assist/#AboutPage_about_FinancialProduct",
+          "url": "https://www.wellsfargo.com/auto-loans/",
+          "name": "Auto loans"
+        }
+      ],
+      "publisher": [
         {
           "@id": "https://www.wellsfargo.com/#Organization"
         }
       ],
-      "subjectOf": [
+      "mentions": [
         {
           "@id": "http://schemaapp.com/db/WellsFargo/prePRODTest#SoftwareApplication"
         },
         {
+          "@type": "WebPage",
+          "@id": "https://www.wellsfargo.com/auto-loans/assist/#Highlight20251015194528801-17157_0_AboutPage_mentions_WebPage",
+          "description": "Changing your auto loan payment due date may help with your budget and making on-time payments.",
+          "name": "Change your payment due date "
+        },
+        {
+          "@type": "WebPage",
+          "@id": "https://www.wellsfargo.com/auto-loans/assist/#Highlight20251015194528801-17157_1_AboutPage_mentions_WebPage",
+          "description": "If eligible, a payment deferment pushes out your auto loan due date and extends the loan maturity date.",
+          "name": "Defer a payment "
+        },
+        {
+          "@type": "WebPage",
+          "@id": "https://www.wellsfargo.com/auto-loans/assist/#Highlight20251015194528801-17157_2_AboutPage_mentions_WebPage",
+          "description": "The more we understand about your situation, the better we’ll be able to suggest payment options.",
+          "name": "Make payment arrangements "
+        }
+      ],
+      "description": "If you can’t make your car payment and need help, reach out to us for assistance with finding out your options.",
+      "keywords": "help with car payment, auto payment help, car payment assistance, vehicle payment assistance",
+      "inLanguage": "en",
+      "name": "Help with car payments and auto loan assistance | Wells Fargo",
+      "mainEntity": [
+        {
           "@type": "FAQPage",
-          "@id": "https://www.wellsfargo.com/auto-loans/#FinancialProduct_subjectOf_FAQPage",
+          "@id": "https://www.wellsfargo.com/auto-loans/assist/#AboutPage_mainEntity_FAQPage",
           "mainEntity": [
             {
               "@type": "Question",
-              "@id": "https://www.wellsfargo.com/auto-loans/#Highlight20251015181830192-261807_0_FinancialProduct_subjectOf_FAQPage_mainEntity_Question",
-              "name": "How do I apply for a Wells Fargo auto loan?",
+              "@id": "https://www.wellsfargo.com/auto-loans/assist/#Highlight20251015194248163-32952_0_AboutPage_mainEntity_FAQPage_mainEntity_Question",
+              "name": "What happens if I miss a payment or make a late payment?",
               "acceptedAnswer": [
                 {
                   "@type": "Answer",
-                  "@id": "https://www.wellsfargo.com/auto-loans/#Highlight20251015181830192-261807_0_FinancialProduct_subjectOf_FAQPage_mainEntity_Question_acceptedAnswer_Answer",
-                  "text": "Wells Fargo auto loans are only available through our nationwide network of nearly 11,000 dealerships. Be sure to ask your dealership if Wells Fargo auto financing is available. If your loan is funded by Wells Fargo Auto, we'll service your account. "
+                  "@id": "https://www.wellsfargo.com/auto-loans/assist/#Highlight20251015194248163-32952_0_AboutPage_mainEntity_FAQPage_mainEntity_Question_acceptedAnswer_Answer",
+                  "text": "There may be a fee for missing a payment or making a late payment. You can find this information in your loan agreement. Since there's a daily interest charge on loans, more interest accrues when there are more days between payments. As a result, you may pay more interest over the life of the loan. "
                 }
               ]
             },
             {
               "@type": "Question",
-              "@id": "https://www.wellsfargo.com/auto-loans/#Highlight20251015181830192-261807_1_FinancialProduct_subjectOf_FAQPage_mainEntity_Question",
-              "name": "How can I start managing my auto loan account online?",
+              "@id": "https://www.wellsfargo.com/auto-loans/assist/#Highlight20251015194248163-32952_1_AboutPage_mainEntity_FAQPage_mainEntity_Question",
+              "name": "Does a late payment affect my credit?",
               "acceptedAnswer": [
                 {
                   "@type": "Answer",
-                  "@id": "https://www.wellsfargo.com/auto-loans/#Highlight20251015181830192-261807_1_FinancialProduct_subjectOf_FAQPage_mainEntity_Question_acceptedAnswer_Answer",
-                  "text": "Start by setting up your account. You'll need your Social Security number and date of birth to get started. Once you have a username and password, you can use the Wells Fargo Mobile app or Wells Fargo Online® to make one-time payments, set up Autopay, access online statements, or manage other Wells Fargo accounts.Opens a modal dialog for footnote 1 "
+                  "@id": "https://www.wellsfargo.com/auto-loans/assist/#Highlight20251015194248163-32952_1_AboutPage_mainEntity_FAQPage_mainEntity_Question_acceptedAnswer_Answer",
+                  "text": "If your payment is 30 or more days late, it may show up on your credit report as a late payment. The degree to which a late payment affects your credit score can depend on things like how many days past due the payment is, how recently you've been past due, and how frequently you’ve made late payments.   Review your credit report so you know where you stand. Free credit reports can be obtained weekly from each of the nationwide consumer reporting agencies: Equifax, Experian, TransUnion, and Innovis. Request a copy of your credit report from annualcreditreport.com."
                 }
               ]
             },
             {
               "@type": "Question",
-              "@id": "https://www.wellsfargo.com/auto-loans/#Highlight20251015181830192-261807_2_FinancialProduct_subjectOf_FAQPage_mainEntity_Question",
-              "name": "How can I stop receiving paper statements for my auto loan?",
+              "@id": "https://www.wellsfargo.com/auto-loans/assist/#Highlight20251015194248163-32952_2_AboutPage_mainEntity_FAQPage_mainEntity_Question",
+              "name": "What happens to my vehicle if it gets repossessed?",
               "acceptedAnswer": [
                 {
                   "@type": "Answer",
-                  "@id": "https://www.wellsfargo.com/auto-loans/#Highlight20251015181830192-261807_2_FinancialProduct_subjectOf_FAQPage_mainEntity_Question_acceptedAnswer_Answer",
-                  "text": " Sign on  to your account and select  Manage delivery preferences. You can access up to 12 months of statements online in Statements and Documents. "
+                  "@id": "https://www.wellsfargo.com/auto-loans/assist/#Highlight20251015194248163-32952_2_AboutPage_mainEntity_FAQPage_mainEntity_Question_acceptedAnswer_Answer",
+                  "text": "If we repossess your vehicle, and you don't redeem the vehicle or reinstate the account, we'll sell the vehicle at auction and apply the amount we receive from the sale of the vehicle to the amount you owe us. If the proceeds from the sale are not enough to pay the full amount you owe us, you may be responsible for paying the remaining balance. "
                 }
               ]
             },
             {
               "@type": "Question",
-              "@id": "https://www.wellsfargo.com/auto-loans/#Highlight20251015181830192-261807_3_FinancialProduct_subjectOf_FAQPage_mainEntity_Question",
-              "name": "How can I change my auto loan payment due date?",
+              "@id": "https://www.wellsfargo.com/auto-loans/assist/#Highlight20251015194248163-32952_3_AboutPage_mainEntity_FAQPage_mainEntity_Question",
+              "name": "If you repossess my vehicle, can I get it back?",
               "acceptedAnswer": [
                 {
                   "@type": "Answer",
-                  "@id": "https://www.wellsfargo.com/auto-loans/#Highlight20251015181830192-261807_3_FinancialProduct_subjectOf_FAQPage_mainEntity_Question_acceptedAnswer_Answer",
-                  "text": "Before you apply for a due date change, you'll need to meet the following criteria:  You've made the first payment on your auto loan. Your requested payment due date shouldn't be more than 15 days from your existing payment due date. For example, if your existing due date is the 5th of the month, you can change it to the 20th of the month, or any day in between. This is your first payment due date change. (You're allowed one payment due date change for the entire term of the loan.) Your account is current or no more than 10 days past due.  If you change your due date, your loan maturity date will be adjusted. Your monthly payment amount will remain the same. To request a due date change, please call us at 1-800-289-8004."
+                  "@id": "https://www.wellsfargo.com/auto-loans/assist/#Highlight20251015194248163-32952_3_AboutPage_mainEntity_FAQPage_mainEntity_Question_acceptedAnswer_Answer",
+                  "text": "If we repossess your vehicle, there may be options to get it back. After repossession, we'll send you a letter with specific details about your account. In some cases, you can \"redeem\" your vehicle by paying the full amount outstanding (plus repossession costs), or \"reinstate\" your account by paying the outstanding monthly payments (plus repossession costs). Each situation is different, and we want to help you. Please call us at 1-888-937-9992, Monday – Thursday, 7 am to 7 pm; Friday, 7 am to 6 pm; and Saturday, 7 am to 2 pm Central Time for more information."
                 }
               ]
             }
           ]
         }
-      ],
-      "image": [
-        {
-          "@type": "ImageObject",
-          "@id": "https://www.wellsfargo.com/auto-loans/#FinancialProduct_image_ImageObject",
-          "url": "https://www17.wellsfargomedia.com/assets/images/contextual/responsive/marquee-ctr/auto-loans/AutoLoanHomepage_Marquee_1700x600.png"
-        }
-      ],
-      "name": "Auto loans",
-      "description": "Learn more about auto loans and financing from Wells Fargo, available through our network of 11,000 dealerships.",
-      "isRelatedTo": [
-        {
-          "@type": "WebPage",
-          "@id": "https://www.wellsfargo.com/auto-loans/#Highlight20251015195813326-17154_0_FinancialProduct_isRelatedTo_WebPage",
-          "url": "https://sites.wf.com/fargo/",
-          "description": "Fargo,\n your virtual assistant in the mobile app, offers a simplified and enhanced banking experience — in English or Spanish.\n\n\t\t  \n\n\t",
-          "name": " Ask Fargo® "
-        },
-        {
-          "@type": "WebPage",
-          "@id": "https://www.wellsfargo.com/auto-loans/#Highlight20251015195813326-17154_1_FinancialProduct_isRelatedTo_WebPage",
-          "url": "https://www.wellsfargo.com/financial-health/",
-          "description": "Take control of your financial life with tools that help you meet your goals.\n\n\t\t  \n\n\t",
-          "name": "Financial Health"
-        }
       ]
     }
   },
   "images": {
-    "count": 25,
+    "count": 21,
     "mapping": {
       "https://www17.wellsfargomedia.com/assets/images/rwd/wf_logo_220x23.png": "./images/fb2ab0c159f5e0df48b95fb95ad466d8.png",
-      "https://www17.wellsfargomedia.com/assets/images/rwd/GooglePlay_Badge.png": "./images/f1a3193c1dfcd455cff41ff8c6c90267.png",
       "https://www17.wellsfargomedia.com/assets/images/sprite/responsive-sprite-v15.png": "./images/0deed819e70e3a69893a099a7dccbcb5.png",
-      "https://www17.wellsfargomedia.com/assets/images/rwd/App_Store_Badge.png": "./images/66b2df0cf5dd426056031b70f03c4c0a.png",
+      "https://www.wellsfargo.com/assets/images/global/s.gif?log=1&cb=1779684987568&event=PageLoad&pid=tcm%3A702-341469-64&ptid=tcm%3A702-236593-128&pageUrl=https%3A%2F%2Fwww.wellsfargo.com%2Fauto-loans%2Fassist%2F&clist=84-224686-16~91-2049-32|84-216681-16~91-223645-32|702-341468-16~91-223645-32|84-329638-16~91-223645-32|84-245958-16~91-223647-32|182-246149-16~91-223667-32|84-241194-16~91-236597-32|84-245989-16~91-226306-32|182-343018-16~91-244424-32|84-343181-16~91-223650-32|84-343207-16~91-228644-32|84-342944-16~91-223650-32|182-343268-16~91-244416-32|182-343309-16~91-244416-32|182-343311-16~91-244416-32|182-343312-16~91-244416-32|84-342016-16~91-223644-32|84-342037-16~91-223650-32|84-343313-16~91-228644-32|84-246011-16~91-223668-32|84-246025-16~91-223675-32": "./images/6af76f81b1b901e3486f4a252d58374b.png",
       "https://www17.wellsfargomedia.com/assets/images/homepage/card_background-gradient-375x2172.png": "./images/1db0f518b178c55735541af80859afdc.png",
-      "https://www.wellsfargo.com/assets/images/global/s.gif?log=1&cb=1779354932426&event=PageLoad&pid=tcm%3A702-341455-64&ptid=tcm%3A702-236593-128&pageUrl=https%3A%2F%2Fwww.wellsfargo.com%2Fauto-loans%2F&clist=84-224686-16~91-2049-32|84-123521-16~91-223645-32|84-216681-16~91-223645-32|84-326851-16~91-223645-32|84-342020-16~91-223645-32|84-17744-16~91-223645-32|84-148263-16~91-223645-32|84-38072-16~91-223645-32|84-342029-16~91-223645-32|84-245958-16~91-223647-32|182-246149-16~91-223667-32|84-241194-16~91-236597-32|84-245989-16~91-226306-32|702-341762-16~91-244424-32|84-341768-16~91-228644-32|182-342025-16~91-244420-32|84-341933-16~91-223650-32|84-341958-16~91-223650-32|84-341962-16~91-223650-32|182-341969-16~91-244416-32|182-341971-16~91-244416-32|182-341995-16~91-244416-32|182-342027-16~91-244416-32|84-342016-16~91-223644-32|84-342028-16~91-228644-32|84-246011-16~91-223668-32|84-246025-16~91-223675-32": "./images/29d298532dd1a61d9e40fefe0c021df9.png",
-      "https://www17.wellsfargomedia.com/assets/images/rwd/icons/auto-loans/UI-heart_64x64.png": "./images/abc675da3ba8693d499f5fae120e8082.png",
-      "https://www17.wellsfargomedia.com/assets/images/rwd/icons/auto-loans/map-marker_64x64.png": "./images/229a0757730e2482bc58811216f67377.png",
-      "https://www17.wellsfargomedia.com/assets/images/rwd/icons/auto-loans/mobilephone_64x64.png": "./images/2df7cf2bd34dfdb5835fb622bbe6dfd6.png",
+      "https://www17.wellsfargomedia.com/assets/images/rwd/icons/auto-loans/clock_64x64.png": "./images/5c2e6e0f6d50299510b2d8436e3d166e.png",
       "https://www17.wellsfargomedia.com/assets/images/rwd/icons/auto-loans/UI-customer-service_64x64.png": "./images/59426cb7f4799fc37242e6ce16b70613.png",
-      "https://www17.wellsfargomedia.com/assets/images/rwd/NativeAppPromoImage_290x582_2.png": "./images/bd6e7589b007bfa73df1bc3729811f49.png",
-      "https://www17.wellsfargomedia.com/assets/images/contextual/responsive/marquee-ctr/auto-loans/AutoLoanHomepage_Marquee_1700x600.png?impolicy=SmCDesktopXL": "./images/7d21763494ed0845a028d4d4344c6846.png",
-      "https://www17.wellsfargomedia.com/assets/images/rwd/icons/auto-loans/Fargo_64x64.png": "./images/7566a78e5f05f495b982429b9eb64ee2.png",
+      "https://www17.wellsfargomedia.com/assets/images/rwd/icons/auto-loans/calendar_64x64.png": "./images/5724b20fceabb1ae8bf311494a8a07c3.png",
+      "https://www17.wellsfargomedia.com/assets/images/rwd/icons/auto-loans/money-rising_64x64.png": "./images/212a1194f843f0b4d9129a094ca3dee8.png",
+      "https://www17.wellsfargomedia.com/assets/images/rwd/icons/auto-loans/vehicle-car_64x64.png": "./images/004cc982b4f9c0a920c99a7b868ee5cf.png",
+      "https://www17.wellsfargomedia.com/assets/images/rwd/icons/auto-loans/cash-in-hand_64x64.png": "./images/6aff1eee806d539f6ae160bc1b0e53e4.png",
       "https://www17.wellsfargomedia.com/assets/images/rwd/icons/auto-loans/heart-rate_64x64.png": "./images/00f20deb5b3676d5e8d3b196581c4d89.png",
-      "https://dpm.demdex.net/ibs:dpid=411&dpuuid=ag7NNQAAAJA2xgN2": "./images/f66965550882f8f4365822c4b4b47fff.png",
-      "https://dpm.demdex.net/ibs:dpid=771&dpuuid=CAESEArZ-p4NaZBl2e6VNLQjJbo&google_cver=1?gdpr=0&gdpr_consent=": "./images/144ca8709c1b6770b3c622a70fb687da.png",
-      "https://dpm.demdex.net/ibs:dpid=477&dpuuid=78dff660597982a571918019587ff87ade250fef09e7e8f45bd0691a738a5bb5b0da87c991749652": "./images/cbc45b8306f2da3f192b941c075a6c8c.png",
-      "https://s.amazon-adsystem.com/ecm3?ex=adobe.com&id=26785843313159849270880135931191803448": "./images/42bcabe8368bd17ca3ccada1a15af039.png",
-      "https://dpm.demdex.net/ibs:dpid=30646?dpuuid=y-XrlL5zZE2pFmpX7B8i.3uqd9tjfTj9DMrU4-~A": "./images/f55d3b6fcc76b8709945e14d4637e196.png",
-      "https://www17.wellsfargomedia.com/assets/images/rwd/auto-loans/GetHelpWithPayments_PromoCardImage_613x353.png": "./images/277d03f9d16477173ad3dfe8c014a7e5.png",
-      "https://www17.wellsfargomedia.com/assets/images/rwd/auto-loans/LearnAboutAuto%20Financing_PromoCard%20Image_613x353.png": "./images/929d843720c4eb07707352735fa8f09c.png",
-      "https://static.wellsfargo.com/assets/js/pcmp/prod/wellsfargo.com/consent/ec31ce42-18f4-4288-9419-e97e758f2d39/01988685-59ac-7e3f-8651-a92ac4822fe9/logos/1b74778f-ed65-4e19-a2c4-8004202c5cdc/01987b71-446e-7a64-aa67-5d9e56da6410/54c9288e-ddd9-4d22-88f3-c9edcb7158ec/WF-Logo-188x50-noleftlarger-x1.png": "./images/0b259dc6dc3820e20101ba1648c5000f.png",
+      "https://www17.wellsfargomedia.com/assets/images/contextual/responsive/marquee-ctr/auto-loans/help-with-auto-loan-payments-marquee-center_1700x600.png?impolicy=SmCDesktopXL": "./images/16eb08f9cfb082fcab4fd1b23f75f542.png",
+      "https://dpm.demdex.net/ibs:dpid=477&dpuuid=8df7e2f09f990654ffff65e094fe787c7c2253854fe4a2945970af9313e1f405b0da87c991749652": "./images/5245f349a9f5ac1775f6bb2e4454a016.png",
+      "https://dpm.demdex.net/ibs:dpid=771&dpuuid=CAESEEqVxeHu67s8q0Pb8bquTYM&google_cver=1?gdpr=0&gdpr_consent=": "./images/39b82548e26112e629aa9565030e0037.png",
+      "https://dpm.demdex.net/ibs:dpid=411&dpuuid=ahPWfAAAAHy_yAN2": "./images/52e600b6fbe4dd192dc16f3959627b38.png",
+      "https://s.amazon-adsystem.com/ecm3?ex=adobe.com&id=80863424579422907564212007397786480360": "./images/4e160bb4c71e22515230155500c7aaef.png",
+      "https://dpm.demdex.net/ibs:dpid=30646?dpuuid=y-PRsxxEhE2pEaIG8R3qF00_JU9EW20cRL.GY-~A": "./images/0149e83a8f760a440d05197d91536b76.png",
+      "https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_150x54dp.png": "./images/94494f3d0604a3e7c063d97a7eda345c.png",
+      "https://www.google.com/pagead/1p-user-list/984436569/?random=1779684988935&cv=11&fst=1779681600000&fmt=3&bg=ffffff&guid=ON&async=1&gtm=45be54f0h2v883158215za204zb9166611554&gcd=13l3l3l3l1l1&dma=0&tag_exp=102509682~102803279~102813109~102887800~102926062~103027016~103051953~103055465~103077950~103116026&ptag_exp=102509683~102803279~102813109~102887800~102926062~103021830~103027016~103051953~103055465~103077950&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.wellsfargo.com%2Fauto-loans%2Fassist%2F&hn=www.googleadservices.com&frm=0&tiba=Help%20with%20car%20payments%20and%20auto%20loan%20assistance%20%7C%20Wells%20Fargo&npa=0&pscdl=noapi&auid=2010598487.1779684989&uaa=x86&uab=64&uafvl=Not%253AA-Brand%3B99.0.0.0%7CHeadlessChrome%3B145.0.7632.6%7CChromium%3B145.0.7632.6&uamb=0&uam=&uap=Linux&uapv=&uaw=0&fledge=1&data=event%3Dgtag.config&is_vtc=1&cid=CAQS4gEABaugfRikX4UPMdYmG49p9buBXDf4kiS2cCxQ5-V_AVBtOw_-Y7rulIK49mRXI0D4YEk0qD5tfuiR7Osr_uugByGjQnmiyFoa30uYnrv79Kc_eoGQg3UpgsP527DojnGuTDWN0n5aCKbaMkkf_tda1lq9dcUkKytCfiDnn6aDz2uwXZxSwk41JP0J0glO_ayqAhM4GBpyERuwGm7EPGi81XApDlq-p1FJQyxo3jcIzJh2JtI7X_3GrhHoYHFOvW_eUID6EEwk1Q6_EA5st0Zds0G2tUvAmHTi1-S8FKWttXDV&random=2102098266": "./images/f6e3ea9675d536994374277fb0cf1602.png",
       "https://static.wellsfargo.com/assets/js/pcmp/prod/wellsfargo.com/consent/ec31ce42-18f4-4288-9419-e97e758f2d39/01988685-59ac-7e3f-8651-a92ac4822fe9/logos/static/powered_by_logo.svg": "./images/b1a526c9ca8940cd5e50a4ed624bbd5a.png",
-      "https://www.google.com/pagead/1p-user-list/984436569/?random=1779354934431&cv=11&fst=1779354000000&fmt=3&bg=ffffff&guid=ON&async=1&gtm=45be54f0h2v883158215za204zb9166611554&gcd=13l3l3l3l1l1&dma=0&tag_exp=102509682~102803279~102813109~102887800~102926062~103027016~103051953~103055465~103077950~103116026&ptag_exp=102509683~102803279~102813109~102887800~102926062~103021830~103027016~103051953~103055465~103077950&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.wellsfargo.com%2Fauto-loans%2F&hn=www.googleadservices.com&frm=0&tiba=Auto%20loans%20and%20financing%20%7C%20Wells%20Fargo&npa=0&pscdl=noapi&auid=1145818177.1779354934&uaa=x86&uab=64&uafvl=Not%253AA-Brand%3B99.0.0.0%7CHeadlessChrome%3B145.0.7632.6%7CChromium%3B145.0.7632.6&uamb=0&uam=&uap=Linux&uapv=&uaw=0&fledge=1&data=event%3Dgtag.config&is_vtc=1&cid=CAQS4gEABaugfSs_tESqbrj9oEPGmKzF-B2UU0bPP1CbRtzFzSAZO_Bqbfdm_0tXFSE3E4SvBIcmMgRTi553Z8vnWRFZamyX4PrXDc7akyd-ODbfGGBPXnwYPJpHmO9F-PsGbEjEvlmcK1FQymm5oxLAk_tjELB4OpuLDu-FPRITMnGn_1xpwCUx_2MpH4nrk2qK6ms9AGuIfkwkx309QAmmGy0c8r93VnhOXZyK6FS0av3OF1Ihmqek7-JV894FW_GUaQukLgaTE1ILLqjyxkWc59XJLurzNKTup0plRT5ZXHDPcUmV&random=3305893827": "./images/e18fb9471c281043e016f8bf7c2fcf30.png",
-      "https://www17.wellsfargomedia.com/assets/images/rwd/auto-loans/ExplorePaymentOptions_PromoCardImage_613x353.png": "./images/86676825ca20faf9ac1e10b3fe27ff06.png"
+      "https://static.wellsfargo.com/assets/js/pcmp/prod/wellsfargo.com/consent/ec31ce42-18f4-4288-9419-e97e758f2d39/01988685-59ac-7e3f-8651-a92ac4822fe9/logos/1b74778f-ed65-4e19-a2c4-8004202c5cdc/01987b71-446e-7a64-aa67-5d9e56da6410/54c9288e-ddd9-4d22-88f3-c9edcb7158ec/WF-Logo-188x50-noleftlarger-x1.png": "./images/0b259dc6dc3820e20101ba1648c5000f.png"
     },
     "stats": {
-      "total": 40,
-      "converted": 23,
-      "skipped": 2,
+      "total": 36,
+      "converted": 18,
+      "skipped": 3,
       "failed": 13,
       "tooLarge": 0,
       "limitReached": 0

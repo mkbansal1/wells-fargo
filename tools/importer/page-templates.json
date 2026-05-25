@@ -406,6 +406,90 @@
           "defaultContent": []
         }
       ]
+    },
+    {
+      "name": "auto-loans-assist",
+      "urls": [
+        "https://www.wellsfargo.com/auto-loans/assist/"
+      ],
+      "description": "Auto loans payment assistance page with help options and resources",
+      "blocks": [
+        {
+          "name": "hero-banner",
+          "instances": [
+            ".rsk-marquee-container"
+          ]
+        },
+        {
+          "name": "cards-icon",
+          "instances": [
+            ".ps-marketing-small-promo-items"
+          ]
+        },
+        {
+          "name": "accordion-faq",
+          "instances": [
+            "details.show-hide-content-wrapper"
+          ]
+        }
+      ],
+      "sections": [
+        {
+          "id": "section-1",
+          "name": "Hero",
+          "selector": ".rsk-marquee-container",
+          "style": null,
+          "blocks": [
+            "hero-banner"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "section-2",
+          "name": "What You Can Do",
+          "selector": "main > .ps-marketing-small-promo-items:nth-of-type(1)",
+          "style": null,
+          "blocks": [
+            "cards-icon"
+          ],
+          "defaultContent": [
+            ".ps-mid-page-title"
+          ]
+        },
+        {
+          "id": "section-3",
+          "name": "FAQ",
+          "selector": "main > .card-background-white:nth-of-type(2)",
+          "style": null,
+          "blocks": [
+            "accordion-faq"
+          ],
+          "defaultContent": [
+            ".ps-mid-page-title",
+            ".ps-btn-secondary"
+          ]
+        },
+        {
+          "id": "section-4",
+          "name": "Additional Resources",
+          "selector": "main > .ps-marketing-small-promo-items:nth-of-type(2)",
+          "style": null,
+          "blocks": [
+            "cards-icon"
+          ],
+          "defaultContent": [
+            ".ps-mid-page-title"
+          ]
+        },
+        {
+          "id": "section-5",
+          "name": "Footnotes",
+          "selector": "main > .ps-footnote",
+          "style": null,
+          "blocks": [],
+          "defaultContent": []
+        }
+      ]
     }
   ]
 }
